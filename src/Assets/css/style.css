@@ -1,0 +1,299 @@
+.wt{
+    color: white;
+}
+
+.bt{
+    color: black;
+
+}
+
+
+.sec2heading{
+    padding-top: 80px;
+}
+
+.formw{
+
+    width: 410px;
+    height: 44px;
+    border-radius: 10px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 46px;
+    color: white;
+    line-height: 55px;
+}
+
+.wheading{
+
+    font-size: 36px ;
+    font-weight:700 ;
+    top: 43px;
+left: 0px;
+width: 429px;
+height: 45px;
+color: white;
+padding-top: 120px;
+}
+
+
+.header1{
+    background-color: transparent
+
+}
+
+
+.bfont{
+    size: 22px;
+    font-weight: 400;
+    /* text-align: ; */
+font: normal normal normal 22px/31px Lexend Deca;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.card{
+    width: 50vh;
+    
+}
+.neonbg{
+    /* background: linear-gradient(135deg, #222222, #333333, #444444, #555555); */
+    /* Create a wine red to black gradient */
+background: linear-gradient(to top, #470101, #000000);
+
+
+}
+.cardtext{
+    color: #CCCCCC;
+}
+
+
+.navbar{
+    padding-top: 9.9px;
+}
+
+.text1{
+    width: 330px;
+    font-weight: 400;
+    font: normal normal normal 22px/31px Lexend Deca;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+
+}
+
+.tabbuttons{
+    background-color: #E4E4E499;
+    width: 900px;
+    margin-left: 254px;
+    justify-content: space-around;
+    border-radius: 5px;
+
+}
+
+.tabimg{
+    padding-left: 101px;
+}
+
+.video{
+
+    height: 509px ;
+    width: 904px;
+    border-radius: 20px;
+
+}
+.video video{
+    border-radius: 10px;
+}
+
+.uk-subnav-pill > .uk-active > a {
+    color: black  ;
+    border-radius: 18px;
+    background-color: white;
+
+}
+.uk-subnav-pill > * > :first-child {
+    padding: 7px 42px;
+}
+
+.flabels{
+
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 1px;
+    margin-top: 44px;
+}
+
+.fbutton{
+
+    background-color:"#02EF93" ;
+    border-radius:3px;
+    width: 20vh;
+    height: 44px;
+    color: maroon  ;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 95vh;
+}
+
+.underline-input {
+    border: none;
+    border-bottom: 8px solid black; 
+    outline: none; 
+    padding: 5px; 
+  }
+  
+.tabtext2{
+    margin-top: 100px;
+}
+
+.UH{
+    text-align: left;
+font: normal normal normal 16px/22px Lexend Deca;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-top: 10vh;
+}
+.b1{
+    left: 139px;
+width: 184px;
+height: 44px;
+/* UI Properties */
+background: #02EF93 0% 0% no-repeat padding-box;
+border-radius: 22px;
+opacity: 1;
+margin-right: 16px;
+}
+
+.b2{
+left: 339px;
+width: 141px;
+height: 44px;
+/* UI Properties */
+border: 1px solid #02EF93;
+opacity: 1;
+background-color: transparent;
+border-radius: 22px;
+margin-left: 2px;
+}
+.underline-input {
+    letter-spacing: -0.27px;
+color: #979797;
+opacity: 1;
+    text-align: start;
+    margin-top: 60px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0); 
+    outline: none; 
+    padding: 5px; 
+    font-size: larger;
+    background-color: transparent; 
+    width: 60%; 
+  }
+
+.underline-input2 {
+    letter-spacing: -0.27px;
+    color: #979797;
+    opacity: 1;    
+    border: none;
+    border-bottom: 3px solid  #979797; 
+    outline: none; 
+    padding: 5px; 
+    font-size: larger;
+    background-color: transparent; 
+    width: 44%; 
+    margin-inline-end: 20px;
+  }
+
+  .wheading2{
+
+    width: 536px;
+height: 144px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 57px/68px Lexend Deca;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  }
+  
+
+.sociallogo{
+
+    /* padding-left: 107px; */
+    padding: 7%;
+}
+
+.text2{
+    width: 352px;
+    height: 87;
+
+}
+a, .uk-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.whpd{
+
+
+    padding-right: 100vh;
+}
+
+
+.formgrid{
+
+    height:"483px" ;
+    width:"904px"; 
+    border-radius:"20px";
+}
+
+.formtabbutton{
+
+    
+    background-color: transparent;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-family: Lexend Deca;
+    font-size: 24px;
+
+}
+
+
+
+
+.uk-subnav-pill > * > :first-child {
+    padding: 5px 10px;
+    background: transparent;
+    color: black;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: smaller;
+        width: 100vh;
+    }
+
+    .tabbuttons{
+        width: 35vh;
+    }
+    .cntctform{
+
+    }
+    .foot{
+        margin-top: 50vh;
+    }
+
+  }
+

@@ -1,0 +1,259 @@
+
+
+/* all animations in this css */
+
+.greytext{
+  color: #696969;
+}
+
+.secheight{
+  height: "768px";
+}
+.black{
+  color: black;
+}
+
+.custombtn {
+  background-color: darkgrey;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+
+.custombtn::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(45deg, #ff9800, #e91e63, #ff5722, #cddc39);
+  background-size: 400% 400%;
+  border-radius: 30px;
+  z-index: -1;
+  animation: glowing 3s linear infinite;
+}
+
+.bgnn{
+  background-color: #696969;
+}
+.mb{
+  margin-bottom: 80vh;
+}
+
+.sh{
+  height: 91vh;
+}
+
+
+.glass-overlay {
+  background: rgba(0, 0, 0, 0.6); /* Adjust the last value (0.5) for the level of transparency */
+  color: white; /* Text color on top of the glass effect */
+}
+.h100{
+  height: 100%;
+  width: 100%;
+}
+.pt{
+  padding-top: 20vh
+}
+.img{
+  height: 90vh;
+}
+/* animation code */
+
+.animated-text {
+  opacity: 0; /* Initially, the text is invisible */
+  animation: fadeIn 1.5s ease-in-out forwards; /* Animation name, duration, and timing function */
+}
+
+.animated-text2 {
+  opacity: 0; /* Initially, the text is invisible */
+  animation: fadeIn 5.5s ease-in-out forwards; /* Animation name, duration, and timing function */
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1; /* At the end of the animation, the text is fully visible */
+  }
+}
+
+
+@keyframes neon {
+  0% {
+    text-shadow: 0 0 10px rgb(3, 80, 122), 0 0 20px rgb(10, 145, 169), 0 0 30px rgb(0, 217, 255);
+    color: #00f;
+  }
+  50% {
+    text-shadow: 0 0 20px rgb(2, 67, 141), 0 0 30px rgb(38, 93, 170), 0 0 40px #00f;
+    color: #00aaff;
+  }
+  100% {
+    text-shadow: 0 0 10px rgb(2, 108, 201), 0 0 20px rgb(0, 149, 255), 0 0 30px rgb(47, 108, 172);
+    color: #00f;
+  }
+}
+
+.neon {
+  animation: neon 1s infinite;
+}
+
+
+
+@keyframes glowing {
+  0% {
+      background-position: 0% 0%;
+  }
+  100% {
+      background-position: 400% 0%;
+  }
+}
+
+/* contact page animation */
+
+.anid {
+  font: 400 1em/1.5 "Neuton";
+  background: #090d00;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
+}
+
+.anip {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, 0.25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+}
+
+.anis {
+  font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation: sitf 80s linear infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+@keyframes sitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+/* home page animation */
+
+.hanim1 {
+  font-family: 'CoreCircus', sans-serif;
+  padding-bottom: 40vh;
+  font-size: 14vw;
+  text-align: center;
+  line-height: 1;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: rgba(45, 45, 45, 1);
+  letter-spacing: -0.5rem;
+}
+
+.hanim1::before {
+  content: attr(data-heading);
+  position: absolute;
+  overflow: hidden;
+  color: #ffcc00;
+  width: 100%;
+  z-index: 5;
+  text-shadow: none;
+  left: 17.5%;
+  text-align: left;
+  animation: flicker 3s linear infinite;
+}
+
+@keyframes flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: 0.99;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.4), 1px -1px 0 rgba(255, 255, 255, 0.4), -1px 1px 0 rgba(255, 255, 255, 0.4), 1px 1px 0 rgba(255, 255, 255, 0.4), 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
+
+.hbg3 {
+  background: linear-gradient(45deg, rgba(45, 45, 45, 1) 9%, rgba(0, 0, 0, 1) 100%);
+  width: 100%;
+  height: 40vh;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'CoreCircus2DDot1';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CoreCircus';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf') format('truetype');
+}
+
+
+
+
+
+/* underflickeranimation */
+
+.shine {
+  margin-top: 37vh;
+  margin-left: 30vh;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-size: 80%;
+  animation: animates 15s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animates {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
