@@ -1,8 +1,11 @@
 import React, { useState,useEffect, useRef } from 'react';
-// import bg1 from "../../Assets/images/bg1.png"
-import bg1 from "../../Assets/images/vv.mp4"
+import bg1 from "../../Assets/images/vv4.mp4"
+import { Link } from 'react-router-dom'
 
 import bg2 from "../../Assets/images/circle.jpg"
+import t1 from "../../Assets/images/t1.jpg"
+import t2 from "../../Assets/images/t2.jpg"
+import t3 from "../../Assets/images/t3.jpg"
 import Footer from '../common/footer'
 import Header from '../common/header'
 
@@ -41,7 +44,7 @@ const Home = () => {
     
 
   return (
-<div className='bgnn uk-background-cover uk-background-fixed uk-background-center-center ' data-src = "https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80" uk-img = "loading : eager"  >
+<div className='bgnn uk-background-cover uk-background-fixed uk-background-center-center ' data-src = {bg2} uk-img = "loading : eager"  >
 
 
  <Header/>
@@ -56,17 +59,22 @@ const Home = () => {
     </div>
         <div className="uk-container uk-padding-large">
             <div className='h1bg' style={{ width: "427px" }}>
-            <h1 className='hanim1' data-heading="i">Eifers</h1>
+            <h1 className='hanim1' data-heading="i">eifers</h1>
+            
             </div>
 
             <div>
             <p className='shine' >Navigating Your Cyber World with Unparalleled Security Expertise</p>
             </div>
+         
 
-            {/* <div style={{ width: "444px" }}>
-                <p className="greytext animated-text2" style={{ fontSize: "24px", fontWeight: "400" }}>Navigating Your Cyber World with Unparalleled Security Expertise.</p>
-            </div> */}
         </div>
+        <Link to={"/contact"}>
+        <div style={{marginLeft:"85vh"}} >
+            <button className='fbutton' >Get in Touch</button>
+            </div>
+        </Link>
+        
     </div>
 </div>
 
@@ -85,7 +93,7 @@ const Home = () => {
 </div>
 
 <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons " uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-    <li className='tbbtn'><a>Threat Assesment </a> </li>
+    <li className='tbbtn'><a className='tbbtn' >Threat Assesment </a> </li>
     <li className='tbbtn'><a>Pen Testing</a></li>
     <li className='tbbtn'  ><a > Risk Mitigation </a></li>
     </ul>    
@@ -99,7 +107,7 @@ const Home = () => {
           </div>
         </div>
         <div className='' >
-          <img className='tabimg' src={bg2}  />
+          <img className='tabimg' src={t3}  />
         </div>
       </div></li>
 
@@ -113,7 +121,7 @@ const Home = () => {
           </div>
         </div>
         <div className='' >
-          <img className='tabimg' src={bg2}  />
+          <img className='tabimg' src={t2}  />
         </div>
       </div></li>
 
@@ -127,7 +135,7 @@ const Home = () => {
           </div>
         </div>
         <div className='' >
-          <img className='tabimg' src={bg2}  />
+          <img className='tabimg' src={t1}  />
         </div>
       </div></li>
 </ul>
@@ -174,10 +182,13 @@ const Home = () => {
             <div>
         <h1  uk-parallax="opacity: 0,1; y: -0,0; scale: 2,1; end: 50vh + 50%;">We’re ready to take on any Security question.</h1>          
         </div>
+
+
+        <Link to={"/contact"}>
         <div>
             <button className='fbutton' >Get in Touch</button>
             </div>
-
+        </Link>
     </div>
 
 

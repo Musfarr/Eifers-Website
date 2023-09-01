@@ -44,7 +44,7 @@ const Header = () => {
                 <div class="uk-navbar-item" style={{paddingBottom:"28px"}} >
                     <form action="javascript:void(0)">
                      <Link to={"/contact"}>   
-                    <button style={{backgroundColor:'darkgrey' , borderRadius:"20px",marginTop:"4.5vh" }} class="uk-button uk-button-primary custombtn ">Contact</button>
+                    <button style={{ borderRadius:"20px",marginTop:"4.5vh" }} class="uk-button uk-button-primary custombtn ">Contact</button>
                     </Link>
                     
                     </form>

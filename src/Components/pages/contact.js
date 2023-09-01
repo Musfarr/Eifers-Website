@@ -56,8 +56,8 @@ const Contact = () => {
                   <textarea className="uk-textarea" id="message" rows="5" placeholder="Your Message"></textarea>
                 </div>
               </div>
-              <div className="uk-margin">
-                <button className="uk-button uk-button-secondary" type="submit">Send</button>
+              <div className=" uk-light uk-margin">
+                <button className="uk-button  "style={{backgroundColor:" #00a0c2 "}} type="submit">Send</button>
               </div>
             </form>
           </div>
@@ -68,7 +68,7 @@ const Contact = () => {
               <ul className="uk-list">
                 <li><strong>Phone:</strong> +92 335 0333493</li>
                 <li><strong>Email:</strong> info@yourdomain.com</li>
-                <li><strong>Address:</strong> 8263 Courtland Dr., Romeoville, IL 60446</li>
+                <li><strong>Address:</strong> B47 block 13A, 3rd Floor Trade Centre</li>
               </ul>
               <div>
                 <a href="#" target="_blank" title="Facebook" className="uk-icon-button uk-margin-small-right" uk-icon="facebook"></a>

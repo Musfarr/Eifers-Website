@@ -73,6 +73,8 @@ background: linear-gradient(to top, #470101, #000000);
 
 .navbar{
     padding-top: 9.9px;
+
+    
 }
 
 .text1{
@@ -89,10 +91,14 @@ background: linear-gradient(to top, #470101, #000000);
 .tabbuttons{
     background-color: #E4E4E499;
     width: 900px;
-    margin-left: 254px;
+    margin-left: 190px;
     justify-content: space-around;
     border-radius: 5px;
 
+}
+.tbbtn{
+
+    font-size: xx-large;
 }
 
 .tabimg{
@@ -135,11 +141,16 @@ background: linear-gradient(to top, #470101, #000000);
     border-radius:3px;
     width: 20vh;
     height: 44px;
-    color: maroon  ;
+    color: #00a0c2  ;
     border-color: transparent;
     font-weight: 700;
     font-size: 16px;
-    margin-right: 95vh;
+    margin-right: 7vh;
+    transition: background-color 0.5s;
+}
+.fbutton:hover{
+    color: #FFFFFF;
+background-color: #00a0c2;
 }
 
 .underline-input {
@@ -153,64 +164,10 @@ background: linear-gradient(to top, #470101, #000000);
     margin-top: 100px;
 }
 
-.UH{
-    text-align: left;
-font: normal normal normal 16px/22px Lexend Deca;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-margin-top: 10vh;
-}
-.b1{
-    left: 139px;
-width: 184px;
-height: 44px;
-/* UI Properties */
-background: #02EF93 0% 0% no-repeat padding-box;
-border-radius: 22px;
-opacity: 1;
-margin-right: 16px;
-}
 
-.b2{
-left: 339px;
-width: 141px;
-height: 44px;
-/* UI Properties */
-border: 1px solid #02EF93;
-opacity: 1;
-background-color: transparent;
-border-radius: 22px;
-margin-left: 2px;
-}
-.underline-input {
-    letter-spacing: -0.27px;
-color: #979797;
-opacity: 1;
-    text-align: start;
-    margin-top: 60px;
-    border: none;
-    border-bottom: 3px solid rgb(0, 0, 0); 
-    outline: none; 
-    padding: 5px; 
-    font-size: larger;
-    background-color: transparent; 
-    width: 60%; 
-  }
 
-.underline-input2 {
-    letter-spacing: -0.27px;
-    color: #979797;
-    opacity: 1;    
-    border: none;
-    border-bottom: 3px solid  #979797; 
-    outline: none; 
-    padding: 5px; 
-    font-size: larger;
-    background-color: transparent; 
-    width: 44%; 
-    margin-inline-end: 20px;
-  }
+
+
 
   .wheading2{
 
@@ -294,6 +251,7 @@ a, .uk-link {
     .foot{
         margin-top: 50vh;
     }
+
 
   }
 
