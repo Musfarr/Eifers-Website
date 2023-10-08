@@ -4,8 +4,8 @@ import logo from "../../Assets/images/logo.jpg"
 const Footer = () => {
   return (
 
-    <div>
-    <section>
+    <div className='foot'>
+    <section >
 <div  style={{height:"448px" , backgroundColor:"white" }} > 
 <div className='uk-container uk-padding' >
     <div class="uk-flex" style={{width:"150px"}} >
@@ -15,7 +15,7 @@ const Footer = () => {
     <div className='uk-flex' style={{  marginTop:"44px" , fontFamily:"Lex" }} >
         <div className='' style={{width:"351px",}}>
         
-        <h2 className='bt '  >LOREM IPSUM STANDARD DUMMY TEXT</h2>
+        <h2 className='bt '  >Experts Security Solutions</h2>
         </div>
 
         <div className='bt' style={{paddingLeft:"110px"}}  >
@@ -25,8 +25,8 @@ const Footer = () => {
         </div>
 
         <div className='bt ' style={{paddingLeft:"150px"}} >
-        <p>IBRAHIM TRADE TOWER,<br /> #803, SHAHRAH-E-FAISAL, KARACHI.</p>
-        <p>For Creators</p>
+        <p>B47 block 13A, 3rd Floor Trade Centre, KARACHI.</p>
+        <p>+92 335 0333493 <br /> +92 304 2179411</p>
         </div>
     </div>
 

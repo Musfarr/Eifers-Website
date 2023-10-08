@@ -2,10 +2,10 @@ import React, { useState,useEffect, useRef } from 'react';
 import bg1 from "../../Assets/images/vv4.mp4"
 import { Link } from 'react-router-dom'
 
-import bg2 from "../../Assets/images/circle.jpg"
+import bg2 from "../../Assets/images/cc.png"
 import t1 from "../../Assets/images/t1.jpg"
 import t2 from "../../Assets/images/t2.jpg"
-import t3 from "../../Assets/images/t3.jpg"
+import t3 from "../../Assets/images/tt.jpeg"
 import Footer from '../common/footer'
 import Header from '../common/header'
 
@@ -44,11 +44,11 @@ const Home = () => {
     
 
   return (
-<div className='bgnn uk-background-cover uk-background-fixed uk-background-center-center ' data-src = {bg2} uk-img = "loading : eager"  >
+<div className='bgnn uk-background-cover uk-background-fixed uk-background-center-center v1 ' data-src = {bg2} uk-img = "loading : eager"  >
 
 
  <Header/>
- <div class="uk-position-relative  " style={{height:"704px" , marginBottom:"30vh"}} >
+ <div class="uk-position-relative  " style={{height:"704px" , marginBottom:"20vh"}} >
     
     <video class="uk-background-cover uk-position-absolute  " src={bg1} loop muted playsinline autoplay uk-video="autoplay: inview"></video>
 
@@ -81,17 +81,10 @@ const Home = () => {
 
  
 
+{/* Section 2 with tabs */}
 
 
-
-<div className='sec2' style={{marginTop:"2vh" , backgroundColor:"transparent"  }}  >
-    <div className='uk-flex uk-flex-center uk-flex-middle uk-text-center sec2heading ' >
-        <div className='' >
-            
-
-</div>
-</div>
-
+<div className='sec2' style={{marginTop:"0vh" , backgroundColor:"transparent"  }}  >
 <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons " uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
     <li className='tbbtn'><a className='tbbtn' >Threat Assesment </a> </li>
     <li className='tbbtn'><a>Pen Testing</a></li>
@@ -141,34 +134,39 @@ const Home = () => {
 </ul>
 </div>
 
+{/* /////////////////////////// */}
+
 <section>
 <div class="uk-section uk-section-large uk-background-secondary uk-light ">
 	<div class="uk-container">
 		<div class="uk-grid-large" data-uk-grid>
-			<div class="uk-width-1-3@m">
+
+			
+
+			<div class="uk-width-expand@m uk-flex uk-flex-column">
+				<h1 class="uk-margin-auto-top uk-margin-medium-bottom " style={{marginLeft:"17vh"}} >Get the very best of us by doing the best of you</h1>
+
+				<div class="uk-child-width-1-3" data-uk-grid>
+        <div class="uk-width-1-3@m">
 				<h2 class="uk-heading-small uk-margin-large-bottom"></h2>
         <Counter  value={150} suffix="+" />
 				<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
 				<h3 class="uk-margin-remove-bottom uk-text-uppercase uk-h5 uk-margin-small-top">Happy Clients</h3>
 			</div> 
-			<div class="uk-width-expand@m uk-flex uk-flex-column">
-				<h2 class="uk-margin-auto-top uk-margin-medium-bottom ">Get the very best of us by doing the best of you</h2>
-				<div class="uk-child-width-1-3" data-uk-grid>
-					<div>
-          <Counter  value={6} suffix="+" />
-						<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
-						<h3 class="uk-text-uppercase uk-h5 uk-margin-small-top">Years Experience</h3>
-					</div> 
-					<div>
-          <Counter  value={150} suffix="+" />
-						<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
-						<h3 class="uk-text-uppercase uk-h5 uk-margin-small-top">Project Done</h3>
-					</div>
-					<div>
-          <Counter  value={25} suffix="+" />
-						<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
-						<h3 class="uk-text-uppercase uk-h5 uk-margin-small-top">Award Winners</h3>
-					</div>
+
+      <div class="uk-width-1-3@m">
+				<h2 class="uk-heading-small uk-margin-large-bottom"></h2>
+        <Counter  value={6} suffix="+" />
+				<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
+				<h3 class="uk-margin-remove-bottom uk-text-uppercase uk-h5 uk-margin-small-top">Years Experience</h3>
+			</div> 
+
+      <div class="uk-width-1-3@m">
+				<h2 class="uk-heading-small uk-margin-large-bottom"></h2>
+        <Counter  value={150} suffix="+" />
+				<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
+				<h3 class="uk-margin-remove-bottom uk-text-uppercase uk-h5 uk-margin-small-top">Projects Done</h3>
+			</div> 
 				</div>
 			</div>
 		</div>
@@ -180,13 +178,13 @@ const Home = () => {
 <div class="hbg3  uk-padding uk-flex uk-flex-center uk-flex-column uk-flex-middle uk-text-center uk-light uk-height-large ">
             
             <div>
-        <h1  uk-parallax="opacity: 0,1; y: -0,0; scale: 2,1; end: 50vh + 50%;">We’re ready to take on any Security question.</h1>          
+        <h1  uk-parallax="opacity: 0,1; y: -0,0; scale: 1,1; end: 50vh + 50%;">We’re ready to take on any Security question.</h1>          
         </div>
 
 
         <Link to={"/contact"}>
         <div>
-            <button className='fbutton' >Get in Touch</button>
+            <button className='fbutton' id='bottombtn' >Get in Touch</button>
             </div>
         </Link>
     </div>
@@ -197,11 +195,11 @@ const Home = () => {
 
 
 
-
+    <div className='foot'>
 
     <Footer/>
 
-
+    </div>
 
 
 

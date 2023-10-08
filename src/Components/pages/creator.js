@@ -27,7 +27,7 @@ const Creator = () => {
 </div>
 
 
-    <div style={{height:"130vh"}} class=" uk-background-secondary uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center " >
+    <div style={{height:"130vh" , backgroundColor:'#333'}} class=" neon uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center " >
     <div className=' uk-container uk-padding    ' > 
     <div className=' uk-grid' uk-grid="">
   <div className='card uk-light  ' >

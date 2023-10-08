@@ -66,7 +66,7 @@ const Contact = () => {
               <h3>Contact Information</h3>
               <p>Feel free to reach out to us!</p>
               <ul className="uk-list">
-                <li><strong>Phone:</strong> +92 335 0333493</li>
+                <li><strong>Phone:</strong> +92 335 0333493 , +92 304 2179411 </li>
                 <li><strong>Email:</strong> info@yourdomain.com</li>
                 <li><strong>Address:</strong> B47 block 13A, 3rd Floor Trade Centre</li>
               </ul>
