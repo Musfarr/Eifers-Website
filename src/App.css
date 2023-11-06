@@ -148,6 +148,19 @@
   margin: 0 0 0 -20em;
 }
 
+
+.btn1 ,.uk-button{
+    background-color: transparent;
+    font-size: 18px !important   ;
+    font-weight: 600 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn1 ,.uk-button:hover{
+  background-color: white;
+  color: #0065c1;
+}
+
 .anis {
   font: 700 4em/1 "Oswald", sans-serif;
   letter-spacing: 0;
