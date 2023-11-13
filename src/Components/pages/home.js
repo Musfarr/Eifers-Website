@@ -38,7 +38,7 @@ const Home = () => {
     <div
       className="bgnn uk-background-cover uk-background-fixed uk-background-center-center v1 "
       data-src={bg2}
-      uk-img="loading : lazy"
+      uk-img="loading : eager"
     >
       <Header />
       <div
