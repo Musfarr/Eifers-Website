@@ -33,26 +33,30 @@ const Counter = ({ title, value, suffix }) => {
   );
 };
 
+// function for placeholder image 
+
 const Home = () => {
   return (
     <div
       className="bgnn uk-background-cover uk-background-fixed uk-background-center-center v1 "
       data-src={bg2}
-      uk-img="loading : eager"
+      uk-img="loading : lazy"
     >
+      
       <Header />
       <div
         class="uk-position-relative  "
         style={{ height: "700px", marginBottom: "25%" }}
       >
         <video
-          class="uk-background-cover uk-position-absolute  "
+          class="uk-background-cover uk-position-absolute"
           src={bg1}
           loop
           muted
           playsinline
           autoplay
           uk-video="autoplay: inview"
+          uk-img="loading : lazy"
         ></video>
 
         <div className="uk-position-cover  ">
