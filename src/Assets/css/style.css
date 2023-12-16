@@ -1,7 +1,6 @@
 .tabbuttons {
   background-color: #e4e4e499;
   width: 900px;
-  margin-left: 160px;
   justify-content: space-around;
   border-radius: 5px;
 }
@@ -12,6 +11,18 @@
 
 .bt {
   color: black;
+}
+
+
+.sec2{
+
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .sec2heading {
@@ -206,9 +217,10 @@ a,
         height: 10vh;
     } */
   .tabbuttons {
-    width: 30vh;
     align-items: center;
-    margin-left: 10vh;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 70%; */
   }
 
   .fbutton {
@@ -216,13 +228,15 @@ a,
   }
   .hanim1 {
     margin-left: 0vh;
-    margin-top: -18vh;
-  }
-  .shine {
-    margin-left: 5vh;
-    width: 40vh;
-    margin-top: 10vh;
-  }
+    margin-top: -41vh;
+}
+.shine {
+  margin-left: 5vh;
+  width: 40vh;
+  margin-top: -41vh;
+  margin-left: 0vh;
+  font-size: xx-small;
+}
   .bt {
     font-size: 14px;
     margin: 0;
@@ -239,4 +253,22 @@ a,
     font-size: x-small;
     margin-left: -3vh;
   }
+  .tabimg{
+    display: hidden;
+  }
+  .tabbuttons {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 4%;
+    width: 92%;
+    margin-top: -48vh;
+    
+}
+.custombtn{
+  display: none;
+}
+.btn1{
+  font-size: small;
+}
 }

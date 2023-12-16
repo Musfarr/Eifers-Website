@@ -149,17 +149,26 @@
 }
 
 
+
+#btn1{
+    width: 100%;
+    text-align: center;
+}
 .btn1 ,.uk-button{
     background-color: transparent;
     font-size: 18px !important   ;
     font-weight: 600 !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex; 
 }
 
 .btn1 ,.uk-button:hover{
   background-color: white;
   color: #0065c1;
 }
+
+
+
 
 .anis {
   font: 700 4em/1 "Oswald", sans-serif;
@@ -190,11 +199,9 @@
 
 .hanim1 {
   font-family: 'CoreCircus', sans-serif;
-  padding-bottom: 40vh;
   font-size: 14vw;
   text-align: center;
   line-height: 1;
-  margin: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -254,9 +261,17 @@
 
 /* underflickeranimation */
 
+
+.shineC{
+  /* width: 100%; */
+  margin-top: 50vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .shine {
-  margin-top: 47vh;
-  margin-left: 32vh;
   position: relative;
   font-family: sans-serif;
   text-transform: uppercase;

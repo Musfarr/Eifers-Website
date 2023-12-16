@@ -43,7 +43,7 @@ const Home = () => {
       <Header />
       <div
         class="uk-position-relative  "
-        style={{ height: "704px", marginBottom: "20vh" }}
+        style={{ height: "700px", marginBottom: "25%" }}
       >
         <video
           class="uk-background-cover uk-position-absolute  "
@@ -58,20 +58,22 @@ const Home = () => {
         <div className="uk-position-cover  ">
           <div></div>
           <div className="uk-container uk-padding-large">
-            <div className="h1bg" style={{ width: "427px" }}>
+
+
+            <div className="h1bg" >
               <h1 className="hanim1" data-heading="i">
                 eifers
               </h1>
             </div>
 
-            <div>
+            <div className="shineC" >
               <p className="shine">
                 Navigating Your Cyber World with Unparalleled Security Expertise
               </p>
             </div>
           </div>
           <Link to={"/contact"}>
-            <div id="btn1" style={{ marginLeft: "72vh" , }}>
+            <div id="btn1">
               <button className="uk-button" > Get a Free Cyber Security Audit </button>
             </div>
           </Link>
@@ -80,6 +82,7 @@ const Home = () => {
 
       {/* Section 2 with tabs */}
 
+    <section>
       <div
         className="sec2"
         style={{ marginTop: "0vh", backgroundColor: "transparent" }}
@@ -161,6 +164,7 @@ const Home = () => {
           </li>
         </ul>
       </div>
+    </section>
 
       {/* /////////////////////////// */}
 
