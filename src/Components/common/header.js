@@ -5,7 +5,46 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <nav class="uk-navbar-container  " style={{ backgroundColor: "white" }}>
+
+      <div className="uk-hidden@s mobheader" >
+        <div className="uk-container">
+        <div className="uk-flex uk-flex-between">
+
+          <div className="logowrap">
+          <Link to={"/"}>
+            <img  src={logo} /> 
+            </Link>
+          </div>
+
+          <div className="listwrap">
+            <ul>
+              <li>
+                <Link to={"/"}>
+                <p>Home</p>
+                </Link>
+              </li>
+              <li>
+                <Link to={"/creator"}>
+                <p>Services</p>
+                </Link>
+              </li>
+              <li>
+                <Link to={"/contact"}>
+                <p>Contact</p>
+                </Link>
+              </li>
+            </ul>
+      
+          </div>
+
+
+
+        </div>
+        </div>
+      </div>
+
+
+      <nav class="uk-navbar-container header  " style={{ backgroundColor: "white" }}>
         <div class="uk-container navbar  ">
           <div uk-navbar>
             <div class="uk-navbar-left">

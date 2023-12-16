@@ -61,16 +61,16 @@ const Home = () => {
 
         <div className="uk-position-cover  ">
           <div></div>
-          <div className="uk-container uk-padding-large">
+          <div className="uk-container uk-padding-large headingwrap">
 
 
-            <div className="h1bg" >
+            <div className="h1bg uk-position" >
               <h1 className="hanim1" data-heading="i">
                 eifers
               </h1>
             </div>
 
-            <div className="shineC" >
+            <div className="shineC uk-position-relative" >
               <p className="shine">
                 Navigating Your Cyber World with Unparalleled Security Expertise
               </p>
@@ -107,7 +107,7 @@ const Home = () => {
           </ul>
           <ul class="uk-switcher uk-margin">
             <li>
-              <div className="uk-container uk-flex uk-padding ">
+              <div className="uk-container uk-flex uk-padding tabwrap ">
                 <div>
                   <p className="heading">Threat Assessment</p>
 
@@ -119,6 +119,7 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
+
                 <div className="">
                   <img className="tabimg" src={t3} loading="lazy" />
                 </div>
@@ -126,7 +127,7 @@ const Home = () => {
             </li>
 
             <li>
-              <div className="uk-container uk-flex uk-padding ">
+              <div className="uk-container uk-flex uk-padding  tabwrap">
                 <div>
                   <p className="heading">Penetration Testing</p>
 
@@ -147,7 +148,7 @@ const Home = () => {
             </li>
 
             <li>
-              <div className="uk-container uk-flex uk-padding ">
+              <div className="uk-container uk-flex uk-padding tabwrap ">
                 <div>
                   <p className="heading">Risk Mitigation</p>
 
@@ -178,8 +179,8 @@ const Home = () => {
             <div class="uk-grid-large" data-uk-grid>
               <div class="uk-width-expand@m uk-flex uk-flex-column">
                 <h1
-                  class="uk-margin-auto-top uk-margin-medium-bottom "
-                  style={{ marginLeft: "17vh" }}
+                  class="uk-margin-auto-top uk-margin-medium-bottom countheads "
+                
                 >
                   Get the very best of us by doing the best of you
                 </h1>
