@@ -37,9 +37,9 @@ const Footer = () => {
               </div>
 
               <div className="bt " style={{ paddingLeft: "150px" }}>
-                <p>B47 block 13A, 3rd Floor Trade Centre, KARACHI.</p>
+                <p>80 Kingsway North, Hollington , United Kingdom.</p>
                 <p>
-                  +92 335 0333493 <br /> +92 304 2179411
+                +447598320511 <br />
                 </p>
               </div>
             </div>
