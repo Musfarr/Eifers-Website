@@ -24,19 +24,20 @@ const Header = () => {
                 }}
               >
                 <li>
-                  <a href="#" className="black">
-                    <Link to={"/"} style={{ color: "black" }}>
+                <Link to={"/"} style={{ color: "black" }}>
+                    <a  className="black">
                       <span class=" uk-margin-small-right black  "></span>
                       Home
+                      </a>
                     </Link>
-                  </a>
+                  
                 </li>
 
                 <li>
                   <a href="#">
                     <Link to={"/creator"} style={{ color: "black" }}>
-                      <span class=" uk-margin-small-right   "></span>
-                      Services
+                      <span class=" uk-margin-small-right   ">Services</span>
+                      
                     </Link>
                   </a>
                 </li>

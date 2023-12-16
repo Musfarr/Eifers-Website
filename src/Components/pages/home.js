@@ -82,89 +82,89 @@ const Home = () => {
 
       {/* Section 2 with tabs */}
 
-    <section>
-      <div
-        className="sec2"
-        style={{ marginTop: "0vh", backgroundColor: "transparent" }}
-      >
-        <ul
-          class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons "
-          uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium"
+      <section>
+        <div
+          className="sec2"
+          style={{ marginTop: "0vh", backgroundColor: "transparent" }}
         >
-          <li className="tbbtn">
-            <a className="tbbtn">Threat Assesment </a>{" "}
-          </li>
-          <li className="tbbtn">
-            <a>Pen Testing</a>
-          </li>
-          <li className="tbbtn">
-            <a> Risk Mitigation </a>
-          </li>
-        </ul>
-        <ul class="uk-switcher uk-margin">
-          <li>
-            <div className="uk-container uk-flex uk-padding ">
-              <div>
-                <p className="heading">Threat Assessment</p>
+          <ul
+            class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons "
+            uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium"
+          >
+            <li className="tbbtn">
+              <a className="tbbtn">Threat Assesment </a>{" "}
+            </li>
+            <li className="tbbtn">
+              <a>Pen Testing</a>
+            </li>
+            <li className="tbbtn">
+              <a> Risk Mitigation </a>
+            </li>
+          </ul>
+          <ul class="uk-switcher uk-margin">
+            <li>
+              <div className="uk-container uk-flex uk-padding ">
+                <div>
+                  <p className="heading">Threat Assessment</p>
 
-                <div className="text1 ">
-                  <p>
-                    Our experienced team of security analysts will identify
-                    potential security threats to your company and provide you
-                    with a comprehensive report outlining areas of concern.
-                  </p>
+                  <div className="text1 ">
+                    <p>
+                      Our experienced team of security analysts will identify
+                      potential security threats to your company and provide you
+                      with a comprehensive report outlining areas of concern.
+                    </p>
+                  </div>
+                </div>
+                <div className="">
+                  <img className="tabimg" src={t3} loading="lazy" />
                 </div>
               </div>
-              <div className="">
-                <img className="tabimg" src={t3} loading="lazy" />
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li>
-            <div className="uk-container uk-flex uk-padding ">
-              <div>
-                <p className="heading">Penetration Testing</p>
+            <li>
+              <div className="uk-container uk-flex uk-padding ">
+                <div>
+                  <p className="heading">Penetration Testing</p>
 
-                <div className="text1 ">
-                  <p>
-                    Identify vulnerabilities in your organization’s
-                    cybersecurity defenses from a hacker’s perspective. Our team
-                    of experts will simulate a cyber attack to identify
-                    potential risks and provide you with recommendations to
-                    address them.
-                  </p>
+                  <div className="text1 ">
+                    <p>
+                      Identify vulnerabilities in your organization’s
+                      cybersecurity defenses from a hacker’s perspective. Our team
+                      of experts will simulate a cyber attack to identify
+                      potential risks and provide you with recommendations to
+                      address them.
+                    </p>
+                  </div>
+                </div>
+                <div className="">
+                  <img className="tabimg" src={t2} />
                 </div>
               </div>
-              <div className="">
-                <img className="tabimg" src={t2} />
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li>
-            <div className="uk-container uk-flex uk-padding ">
-              <div>
-                <p className="heading">Risk Mitigation</p>
+            <li>
+              <div className="uk-container uk-flex uk-padding ">
+                <div>
+                  <p className="heading">Risk Mitigation</p>
 
-                <div className="text1 ">
-                  <p>
-                    Our team of experts will work with your organization to
-                    address any vulnerabilities identified through our threat
-                    assessment and penetration testing services. We will provide
-                    you with a comprehensive plan to mitigate risks and protect
-                    your sensitive information.
-                  </p>
+                  <div className="text1 ">
+                    <p>
+                      Our team of experts will work with your organization to
+                      address any vulnerabilities identified through our threat
+                      assessment and penetration testing services. We will provide
+                      you with a comprehensive plan to mitigate risks and protect
+                      your sensitive information.
+                    </p>
+                  </div>
+                </div>
+                <div className="">
+                  <img className="tabimg" src={t1} />
                 </div>
               </div>
-              <div className="">
-                <img className="tabimg" src={t1} />
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       {/* /////////////////////////// */}
 
