@@ -106,15 +106,13 @@ const Contact = () => {
                     <p>Feel free to reach out to us!</p>
                     <ul className="uk-list">
                       <li>
-                        <strong>Phone:</strong> +92 335 0333493 , +92 304
-                        2179411{" "}
+                        <strong>Phone:</strong> +447598320511{" "}
                       </li>
                       <li>
-                        <strong>Email:</strong> info@yourdomain.com
+                        <strong>Email:</strong> Info@eifers.com
                       </li>
                       <li>
-                        <strong>Address:</strong> B47 block 13A, 3rd Floor Trade
-                        Centre
+                        <strong>Address:</strong> 80 Kingsway North, Hollington , United Kingdom.
                       </li>
                     </ul>
                     <div>
