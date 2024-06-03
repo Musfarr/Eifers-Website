@@ -71,9 +71,9 @@ const Home = () => {
             </div>
 
             <div className="shineC uk-position-relative" >
-              <p className="shine">
+              {/* <p className="shine">
                 Navigating Your Cyber World with Unparalleled Security Expertise
-              </p>
+              </p> */}
             </div>
           </div>
           <Link to={"/contact"}>
