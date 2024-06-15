@@ -1,0 +1,332 @@
+.tabbuttons {
+  background-color: #e4e4e499;
+  width: 900px;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.wt {
+  color: white;
+}
+
+.bt {
+  color: black;
+}
+
+
+.sec2{
+
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sec2heading {
+  padding-top: 80px;
+}
+
+.formw {
+  width: 410px;
+  height: 44px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+  line-height: 55px;
+}
+
+.wheading {
+  font-size: 36px;
+  font-weight: 700;
+  top: 43px;
+  left: 0px;
+  width: 429px;
+  height: 45px;
+  color: white;
+  padding-top: 120px;
+}
+
+.header1 {
+  background-color: transparent;
+}
+
+.bfont {
+  size: 22px;
+  font-weight: 400;
+  /* text-align: ; */
+  font: normal normal normal 22px/31px Lexend Deca;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.card {
+  width: 50vh;
+}
+.neonbg {
+  /* background: linear-gradient(135deg, #222222, #333333, #444444, #555555); */
+  /* Create a wine red to black gradient */
+  /* background: linear-gradient(to top, #470101, #000000); */
+  background: linear-gradient(90deg, #00a0c2, #0065c1);
+}
+.cardtext {
+  color: #cccccc;
+}
+
+.navbar {
+  padding-top: 9.9px;
+}
+
+.text1 {
+  width: 330px;
+  font-weight: 400;
+  font: normal normal normal 22px/31px Lexend Deca;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.tbbtn {
+  font-size: xx-large;
+}
+
+.tabimg {
+  padding-left: 101px;
+}
+
+.video {
+  height: 509px;
+  width: 904px;
+  border-radius: 20px;
+}
+.video video {
+  border-radius: 10px;
+}
+
+.uk-subnav-pill > .uk-active > a {
+  color: black;
+  border-radius: 18px;
+  background-color: white;
+}
+.uk-subnav-pill > * > :first-child {
+  padding: 7px 42px;
+}
+
+.flabels {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 1px;
+  margin-top: 44px;
+}
+
+.fbutton {
+  background-color: "#02EF93";
+  border-radius: 3px;
+  width: 20vh;
+  height: 44px;
+  color: #00a0c2;
+  border-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 5vh;
+  transition: background-color 0.5s;
+}
+.fbutton:hover {
+  color: #ffffff;
+  background-color: #00a0c2;
+}
+
+.underline-input {
+  border: none;
+  border-bottom: 8px solid black;
+  outline: none;
+  padding: 5px;
+}
+
+.tabtext2 {
+  margin-top: 100px;
+}
+
+.wheading2 {
+  width: 536px;
+  height: 144px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 57px/68px Lexend Deca;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.sociallogo {
+  /* padding-left: 107px; */
+  padding: 7%;
+}
+
+.text2 {
+  width: 352px;
+  height: 87;
+}
+a,
+.uk-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.whpd {
+  padding-right: 100vh;
+}
+
+.formgrid {
+  height: "483px";
+  width: "904px";
+  border-radius: "20px";
+}
+
+.formtabbutton {
+  background-color: transparent;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-family: Lexend Deca;
+  font-size: 24px;
+}
+
+.uk-subnav-pill > * > :first-child {
+  padding: 5px 10px;
+  background: transparent;
+  color: black;
+  font-weight: 500;
+}
+.countheads{
+  margin-left: 17vh;
+}
+
+.mobheader{
+  width: 100%;
+  height: 5vh;
+  background-color: #ffffff;
+
+}
+
+
+.logowrap{
+  padding: 5px;
+  height: 20%;
+  width: 20%;
+}
+
+  .listwrap li {
+    padding: 0px  4px  4px  4px ;
+    /* font-family:Arial, Helvetica, sans-serif */
+    
+  }
+.listwrap ul {
+  
+  list-style: none ;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 10px;
+}
+.listwrap li a {
+  
+ color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: smaller;
+  }
+  /* .v1{
+        height: 10vh;
+    } */
+  .tabbuttons {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 70%; */
+  }
+
+  .fbutton {
+    margin-left: -69vh;
+  }
+  .hanim1 {
+    margin-left: 0vh;
+    margin-top: -41vh;
+}
+.shine {
+  margin-left: 5vh;
+  width: 40vh;
+  margin-top: -41vh;
+  margin-left: 0vh;
+  font-size: xx-small;
+}
+  .bt {
+    font-size: 14px;
+    margin: 0;
+    margin-right: -80;
+  }
+  .foot {
+    width: 50vh;
+    overflow: scroll;
+  }
+  #bottombtn {
+    margin-left: 10vh;
+  }
+  .gh1 {
+    font-size: x-small;
+    margin-left: -3vh;
+  }
+  .tabimg{
+    padding: 10px;
+
+  }
+  .tabbuttons {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 4%;
+    width: 92%;
+    margin-top: -48vh;
+    
+}
+.custombtn{
+  display: none;
+}
+.btn1{
+  font-size: small;
+}
+.header{
+  display: none;
+}
+.tabwrap{
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+}
+.tabwrap p {
+  font-size: large;
+}
+.countheads{
+  text-align: center;
+  font-size: x-large;
+  margin-left: 0;
+
+}
+
+/* .bgnn video {
+  display: none;
+} */
+
+}

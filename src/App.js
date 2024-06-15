@@ -1,8 +1,6 @@
 import "./App.css";
 import Home from "./Components/pages/home";
-import "uikit/dist/css/uikit.css";
-import "uikit/dist/js/uikit.js";
-import "./Assets/css/style.css";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Creator from "./Components/pages/creator";
 import Contact from "./Components/pages/contact";

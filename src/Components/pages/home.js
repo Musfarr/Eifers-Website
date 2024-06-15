@@ -39,8 +39,7 @@ const Home = () => {
   return (
     <div
       className="bgnn uk-background-cover uk-background-fixed uk-background-center-center v1 "
-      data-src={bg2}
-      uk-img="loading : lazy"
+      // data-src={bg2}
     >
       
       <Header />
@@ -235,9 +234,8 @@ const Home = () => {
         </Link>
       </div>
 
-      <div className="foot">
+      
         <Footer />
-      </div>
     </div>
   );
 };

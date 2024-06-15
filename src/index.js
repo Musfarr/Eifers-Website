@@ -1,6 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import "uikit/dist/css/uikit.css";
+import "uikit/dist/js/uikit.js";
+import "./Assets/css/style1.css";
+import "./Assets/css/style.css";
+import "./Assets/css/libraries.css";
+
+// import "./Assets/js/main.js";
+// import "./Assets/js/plugins";
+// import "./Assets/js/google-map";
+// import "./Assets/js/jquery-3.5.1.min";
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

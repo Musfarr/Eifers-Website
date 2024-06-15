@@ -3,103 +3,49 @@ import logo from "../../Assets/images/logo.jpg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  return (
-    <div>
-
-      <div className="uk-hidden@s mobheader" >
-        <div className="uk-container">
-        <div className="uk-flex uk-flex-between">
-
-          <div className="logowrap">
-          <Link to={"/"}>
-            <img  src={logo} /> 
-            </Link>
-          </div>
-
-          <div className="listwrap">
-            <ul>
-              <li>
-                <Link to={"/"}>
-                <p>Home</p>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/creator"}>
-                <p>Services</p>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/contact"}>
-                <p>Contact</p>
-                </Link>
-              </li>
-            </ul>
-      
-          </div>
-
-
-
-        </div>
-        </div>
-      </div>
-
-
-      <nav class="uk-navbar-container header  " style={{ backgroundColor: "white" }}>
-        <div class="uk-container navbar  ">
-          <div uk-navbar>
-            <div class="uk-navbar-left">
-              <Link to={"/"}>
-                <div style={{ width: "150px", height: "100px" }}>
-                  <img style={{ paddingTop: "2vh" }} src={logo} />
-                </div>
-              </Link>
-
-              <ul
-                class="uk-navbar-nav  "
-                style={{
-                  marginLeft: "48%",
-                  marginTop: "2vh",
-                  fontWeight: "600",
-                }}
-              >
-                <li>
-                <Link to={"/"} style={{ color: "black" }}>
-                    <a  className="black">
-                      <span class=" uk-margin-small-right black  "></span>
-                      Home
-                      </a>
-                    </Link>
-                  
+    return (
+      <header class="header header-transparent">
+        <nav class="navbar navbar-expand-lg sticky-navbar">
+          <div class="container">
+  
+            <a class="navbar-brand" href="index-2.html">
+              <img src={logo} class="logo-light" alt="logo"/>
+              <img src={logo} class="logo-dark" alt="logo"/>
+              
+            </a>
+            <button class="navbar-toggler" type="button">
+              <span class="menu-lines"><span></span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavigation">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav__item  has-dropdown">
+                  <Link to = "/"><a href="index-2.html"  class=" nav__item-link active">Home</a></Link>
                 </li>
 
-                <li>
-                  <a href="#">
-                    <Link to={"/creator"} style={{ color: "black" }}>
-                      <span class=" uk-margin-small-right   ">Services</span>
-                      
-                    </Link>
-                  </a>
+                
+                <li class="nav__item  has-dropdown">
+                  <Link to="/creator" ><a href="#" data-toggle="dropdown" class=" nav__item-link">Company</a></Link>
                 </li>
+                <li class="nav__item  has-dropdown">
+                  <a href="#" data-toggle="dropdown" class=" nav__item-link">Services</a>
+                </li>
+                
+               
+                {/* <li class="nav__item">
+                  <a href="contact-us.html" class="nav__item-link">Contacts</a>
+                </li> */}
               </ul>
-
-              <div class="uk-navbar-item" style={{ paddingBottom: "28px" }}>
-                <form action="javascript:void(0)">
-                  <Link to={"/contact"}>
-                    <button
-                      style={{ borderRadius: "20px", marginTop: "4.5vh" }}
-                      class="uk-button uk-button-primary custombtn "
-                    >
-                      Contact
-                    </button>
-                  </Link>
-                </form>
-              </div>
             </div>
+            <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
+              <li class="d-none d-xl-block">
+                <Link to="/contact"><a href="request-quote.html" class="btn action__btn-contact">Contact Us</a></Link>
+              </li>
+              
+            </ul>
           </div>
-        </div>
-      </nav>
-    </div>
-  );
-};
-
-export default Header;
+        </nav>
+      </header>
+    );
+  };
+  
+  export default Header;
