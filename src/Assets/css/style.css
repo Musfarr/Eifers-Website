@@ -3344,7 +3344,7 @@ input[type=radio] {
 /* Mobile and Tablets */
 @media screen and (max-width: 991px) {
   .navbar .navbar-toggler {
-    position: absolute;
+    /* position: absolute; */
     right: 15px;
     height: 13px;
   }

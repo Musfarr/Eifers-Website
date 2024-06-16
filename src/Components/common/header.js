@@ -1,18 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../../Assets/images/logo.jpg";
 import { Link } from "react-router-dom";
+import $ from 'jquery'
 
 const Header = () => {
+
+  useEffect(() => {
+    var $navToggler = $('.navbar-toggler');
+    $navToggler.on('click', function () {
+        $(this).toggleClass('actived');
+    })
+    $navToggler.on('click', function () {
+        $('.navbar-collapse').toggleClass('menu-opened');
+    })
+  })
+
     return (
       <header class="header header-transparent">
         <nav class="navbar navbar-expand-lg sticky-navbar">
           <div class="container">
   
-            <a class="navbar-brand" href="index-2.html">
+          <Link to='/'>
+            <a class="navbar-brand" >
               <img src={logo} class="logo-light" alt="logo"/>
-              <img src={logo} class="logo-dark" alt="logo"/>
-              
+              {/* <img src={logo} class="logo-dark" alt="logo"/> */}
             </a>
+            </Link>
             <button class="navbar-toggler" type="button">
               <span class="menu-lines"><span></span></span>
             </button>
@@ -27,7 +40,7 @@ const Header = () => {
                   <Link to="/creator" ><a href="#" data-toggle="dropdown" class=" nav__item-link">Company</a></Link>
                 </li>
                 <li class="nav__item  has-dropdown">
-                  <a href="#" data-toggle="dropdown" class=" nav__item-link">Services</a>
+                <Link to="/creator" ><a href="#" data-toggle="dropdown" class=" nav__item-link">Services</a></Link>
                 </li>
                 
                

@@ -307,9 +307,7 @@ a,
 .btn1{
   font-size: small;
 }
-.header{
-  display: none;
-}
+
 .tabwrap{
   display: flex;
   flex-direction: column;
