@@ -6,6 +6,7 @@ import "uikit/dist/js/uikit.js";
 import "./Assets/css/style1.css";
 import "./Assets/css/style.css";
 import "./Assets/css/libraries.css";
+import 'animate.css';
 
 
 import App from './App';

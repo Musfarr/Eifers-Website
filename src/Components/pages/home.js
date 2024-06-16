@@ -52,17 +52,12 @@ const Home = () => {
         ></img>
 
         <div className="uk-position-cover  ">
-          <div></div>
           <div className="uk-container uk-padding-large headingwrap">
-
-
-            <div className="h1bg uk-position" >
+            <div className=" animate__animated animate__fadeInLeft h1bg uk-position" >
               <h1 className="hanim1" data-heading="i">
                 eifers
               </h1>
             </div>
-
-           
           </div>
           
         </div>
