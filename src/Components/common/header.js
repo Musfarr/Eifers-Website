@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../../Assets/images/logo.jpg";
+import logo from "../../Assets/images/logotrans.png";
 import { Link } from "react-router-dom";
 import $ from 'jquery'
 
