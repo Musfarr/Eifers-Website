@@ -3,7 +3,7 @@ import bg1 from "../../Assets/images/vv4.mp4";
 import { Link } from "react-router-dom";
 import "../../Assets/css/style.css";
 import bg2 from "../../Assets/images/cc.png";
-import t1 from "../../Assets/images/t1.jpg";
+import t4 from "../../Assets/images/t4.jpg";
 import t2 from "../../Assets/images/t2.jpg";
 import t3 from "../../Assets/images/tt.jpeg";
 import Footer from "../common/footer";
@@ -38,28 +38,30 @@ const Counter = ({ title, value, suffix }) => {
 const Home = () => {
   return (
     <div
-      className="bgnn uk-background-cover uk-background-fixed uk-background-center-center v1 "
+      className="bgnn uk-background-cover uk-background-fixed uk-background-center-center v1  "
     >
       
       <Header />
       <div
-        class="uk-position-relative  "
+        class="uk-position-relative first_sec  "
         style={{ height: "700px", marginBottom: "25%" }}
       >
+        <div className="overlay"></div>
         <img
           class="uk-background-cover uk-position-absolute"
-          src={t1}
+          src={t4}
         ></img>
 
-        <div className="uk-position-cover  ">
+        <div className="uk-position-cover first_sec_content ">
           <div className="uk-container uk-padding-large headingwrap">
-            <div className=" animate__animated animate__fadeInLeft h1bg uk-position" >
+
+            <div className=" animate__animated animate__fadeInLeft  " >
               <h1 className="hanim1" data-heading="i">
                 eifers
               </h1>
             </div>
+            
           </div>
-          
         </div>
       </div>
 
