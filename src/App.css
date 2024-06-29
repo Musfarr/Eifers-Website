@@ -47,8 +47,12 @@
 }
 
 .bgnn{
-  background-color: black;
+  background-color: #010003;
+  /* background-image: url("./bg1.png");
+  background-size: cover; */
 }
+
+
 .mb{
   margin-bottom: 80vh;
 }
