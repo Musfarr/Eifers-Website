@@ -270,4 +270,9 @@ a,
   background-image: linear-gradient(45deg, #000000, #312f2f00);
 }
 
-
+.comingsoon{
+  color: white;
+  font-size: 4em;
+  margin-top: 33%;
+  margin-left: 49%;
+}

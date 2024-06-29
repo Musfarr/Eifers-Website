@@ -41,10 +41,10 @@ const Home = () => {
       className="bgnn uk-background-cover uk-background-fixed uk-background-center-center v1  "
     >
       
-      <Header />
+      {/* <Header /> */}
       <div
         class="uk-position-relative first_sec  "
-        style={{ height: "700px", marginBottom: "25%" }}
+        style={{ height: "120vh",  }}
       >
         <div className="overlay"></div>
         <img
@@ -60,6 +60,12 @@ const Home = () => {
                 eifers
               </h1>
             </div>
+
+            <div className=" animate__animated animate__fadeInRight  " >
+              <h1 className="comingsoon">
+                Coming Soon
+              </h1>
+            </div>
             
           </div>
         </div>
@@ -70,7 +76,7 @@ const Home = () => {
       {/* /////////////////////////// */}
 
 
-      <div class="hbg3  uk-padding uk-flex uk-flex-center uk-flex-column uk-flex-middle uk-text-center uk-light uk-height-large ">
+      {/* <div class="hbg3  uk-padding uk-flex uk-flex-center uk-flex-column uk-flex-middle uk-text-center uk-light uk-height-large ">
         <div>
           <h1 uk-parallax="opacity: 0,1; y: -0,0; scale: 1,1; end: 50vh + 50%;">
             We’re ready to take on any Security question.
@@ -84,10 +90,10 @@ const Home = () => {
             </button>
           </div>
         </Link>
-      </div>
+      </div> */}
 
       
-        <Footer />
+        {/* <Footer /> */}
     </div>
   );
 };
