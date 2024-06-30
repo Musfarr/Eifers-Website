@@ -47,9 +47,9 @@
 }
 
 .bgnn{
-  background-color: #010003;
-  /* background-image: url("./bg1.png");
-  background-size: cover; */
+  /* background-color: #010003; */
+  background-image: url("./bg1.png");
+  background-size: cover;
 }
 
 

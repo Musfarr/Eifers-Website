@@ -5,34 +5,20 @@ import t4 from "../../Assets/images/t4.jpg";
 import c1 from "../../Assets/images/security-1.png";
 import c2 from "../../Assets/images/net.png";
 import c3 from "../../Assets/images/asser2x-150x150.png";
-
 import Footer from "../common/footer";
 import Header from "../common/header";
 import Aos from "aos";
+import CountUp from 'react-countup';
 
 
-
-// function for placeholder image
 
 const Home = () => {
 
-  const [count, setCount] = useState(0);
 
   useEffect(()=>{
     Aos.init({
       duration: 1200,
     })
-
-
-  // let interval;
-  // for(var i = count; i <  ; i++ ){
-  //     if (count < 10) {
-  //       interval = setInterval(() => {
-  //         setCount((prevCount) => prevCount + 1);
-  //       }, 70); // You can adjust the duration as needed
-  //     }
-  //     clearInterval(interval);
-  //   }
   })
   
 
@@ -64,24 +50,13 @@ const Home = () => {
         </div>
       </div>
 
-      
 
-      <div className=" uk-container service_sec">
+
+      <div className=" service_sec">
         <div className="service_head">
           <h5>Our Services</h5>
           <h1>What we Offer</h1>
         </div>
-
-
-
-        {/* <div className="counter ">
-        <span className="neon uk-heading-xlarge uk-text-primary">{count}</span>
-        {suffix && <span className="counter-suffix">{suffix}</span>}
-        <div className="counter-title">{title}</div>
-      </div> */}
-
-
-
         <div
           className="uk-grid uk-child-width-1-1 uk-child-width-1-3@s "
           data-aos="fade-up"
@@ -96,7 +71,7 @@ const Home = () => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Read More </Link>
+              <Link to="/creator"> Learn More </Link>
             </div>
           </div>
           <div>
@@ -108,7 +83,7 @@ const Home = () => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Read More </Link>
+              <Link to="/creator"> Learn More </Link>
             </div>
           </div>
           <div>
@@ -120,18 +95,22 @@ const Home = () => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Read More </Link>
+              <Link to="/creator"> Learn More </Link>
             </div>
           </div>
         </div>
-
-
-
-
-
-
-        
       </div>
+
+
+
+        <div className="countsec">
+        <div className="countwrap" data-aos="fade-up" >
+          <div> <img src={c1} /> <CountUp end={1458} duration={9} /> <p>Cybersecurity Projects</p> </div>
+          <div> <img src={c2} /> <CountUp end={158} duration={7} /> <p>Clients Protection</p> </div>
+          <div> <img src={c2} /> <CountUp end={458} duration={6} /> <p>Service Guarantee</p> </div>
+          <div> <img src={c1} /> <CountUp end={158} duration={9} /> <p>Team Experts</p> </div>
+        </div>
+        </div>
 
       <Footer />
     </div>

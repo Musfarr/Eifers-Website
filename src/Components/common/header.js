@@ -36,9 +36,9 @@ const Header = () => {
                 </li>
 
                 
-                <li class="nav__item  has-dropdown">
+                {/* <li class="nav__item  has-dropdown">
                   <Link to="/creator" ><a href="#" data-toggle="dropdown" class=" nav__item-link">Company</a></Link>
-                </li>
+                </li> */}
                 <li class="nav__item  has-dropdown">
                 <Link to="/creator" ><a href="#" data-toggle="dropdown" class=" nav__item-link">Services</a></Link>
                 </li>
