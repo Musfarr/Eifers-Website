@@ -50,9 +50,13 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="second_sec">
+
+      </div>
 
 
-      <div className=" service_sec">
+
+      <section className=" service_sec" style={{background:'#000a12'}} >
         <div className="service_head">
           <h5>Our Services</h5>
           <h1>What we Offer</h1>
@@ -99,18 +103,37 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
 
 
-        <div className="countsec">
+        <section className="countsec">
         <div className="countwrap" data-aos="fade-up" >
           <div> <img src={c1} /> <CountUp end={1458} duration={9} /> <p>Cybersecurity Projects</p> </div>
-          <div> <img src={c2} /> <CountUp end={158} duration={7} /> <p>Clients Protection</p> </div>
-          <div> <img src={c2} /> <CountUp end={458} duration={6} /> <p>Service Guarantee</p> </div>
-          <div> <img src={c1} /> <CountUp end={158} duration={9} /> <p>Team Experts</p> </div>
+          <div> <img src={c2} /> <CountUp end={158} duration={10} /> <p>Clients Protection</p> </div>
+          <div> <img src={c2} /> <CountUp end={458} duration={10} /> <p>Service Guarantee</p> </div>
+          <div> <img src={c1} /> <CountUp end={158} duration={10} /> <p>Team Experts</p> </div>
         </div>
+        </section>
+
+
+      <section className="ls_sec uk-light">
+
+        <div className="newsletter" data-aos="fade-up" >
+
+          <div className="newsletteritem">
+          <h1>Subscribe Our Newsletter
+          </h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <input className="uk-input uk-width-1-2" placeholder="your email address" /> 
+          <span> <button className=" uk-button uk-button-primary  "> Submit </button> </span>
+          </div>
         </div>
+
+      </section>
+
+
+
 
       <Footer />
     </div>

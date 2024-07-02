@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../../Assets/images/logo.jpg";
+import logo from "../../Assets/images/logotrans.png";
 import { Link } from "react-router-dom";
 import { FaFacebookF  , FaLinkedin , } from "react-icons/fa";
 
@@ -22,13 +22,13 @@ const Footer = () => {
 
 
   return (
-    <footer className="footer footer-light">
+    <footer className="footer  uk-light">
     <div className="footer-primary">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-3 footer-widget footer-widget-about">
-            <div className="footer-widget__content">
-              <img src={logo} alt="logo" className="mb-30"/>
+          <div className="col-sm-12 col-md-12 col-lg-3  footer-widget-about">
+            <div className="">
+              <img src={logo} alt="logo" className="" style={{width:'100%'}} />
             </div>
           </div>
           <div className="col-sm-6 col-md-4 col-lg-2 footer-widget footer-widget-nav">

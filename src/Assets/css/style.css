@@ -3773,12 +3773,12 @@ input[type=radio] {
     Footer
 --------------------------*/
 .footer {
-  background-color: #0a2d43;
+  background-color:#000a12;
 }
 
 .footer .footer-primary {
-  padding-top: 130px;
-  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 0px;
 }
 
 .footer .footer-widget {
@@ -3914,7 +3914,7 @@ input[type=radio] {
 }
 
 .footer-light {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 .footer-light #scrollTopBtn,

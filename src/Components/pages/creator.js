@@ -1,23 +1,39 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../common/header'
 import Footer from '../common/footer'
 import { Link } from 'react-router-dom'
+import c1 from "../../Assets/images/security-1.png";
+import c2 from "../../Assets/images/net.png";
+import c3 from "../../Assets/images/asser2x-150x150.png";
 
+import Aos from 'aos';
 
 
 
 
 
 const Creator = () => {
+
+  
+useEffect(() => {
+  Aos.init({
+    duration: 1200,
+  })
+})
+
+
   return (
 <div  >
 <Header/>
 
-<div class="uk-position-relative uk-position-z-index-zero">
-    <div class="uk-background-cover uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center uk-light uk-height-medium uk-position-z-index-negative" data-src = "https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80" uk-img = "loading : eager" >
+
+
+<section className=" service_sec"style={{marginTop : '-100px'}} >
+
+<div class="uk-padding-large"  >
+    <div class=" uk-text-center uk-light uk-height-medium "  >
     <div className='anid'>
 <p className='anip' >
-  
   <span className='anis'>
     Our Services
   </span>
@@ -26,6 +42,92 @@ const Creator = () => {
 </div> 
 </div>
 </div>
+        
+        <div
+          className="uk-grid uk-child-width-1-1 uk-child-width-1-3@s "
+          data-aos="fade-up"
+          uk-grid=""
+        >
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c2} />
+              <h2>Network Security</h2>
+              <p>
+                {" "}
+                Alternatively, the Drop component has two additional ani*
+                animations slide the dropdown
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c1} />
+              <h2>Data Security</h2>
+              <p>
+                {" "}
+                Alternatively, the Drop component has two additional ani*
+                animations slide the dropdown
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c3} />
+              <h2>Web Security</h2>
+              <p>
+                {" "}
+                Alternatively, the Drop component has two additional ani*
+                animations slide the dropdown
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+        </div>
+        <div
+          className="uk-grid uk-child-width-1-1 uk-child-width-1-3@s "
+          data-aos="fade-up"
+          uk-grid=""
+        >
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c2} />
+              <h2>Network Security</h2>
+              <p>
+                {" "}
+                Alternatively, the Drop component has two additional ani*
+                animations slide the dropdown
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c1} />
+              <h2>Data Security</h2>
+              <p>
+                {" "}
+                Alternatively, the Drop component has two additional ani*
+                animations slide the dropdown
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c3} />
+              <h2>Web Security</h2>
+              <p>
+                {" "}
+                Alternatively, the Drop component has two additional ani*
+                animations slide the dropdown
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 <Footer/>
