@@ -342,6 +342,17 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 61%, rg
   background-color: #000a12;
   height: 100vh;
 }
+.second_sec_wrapper{
+  padding: 100px;
+}
+.second_sec ul {
+  list-style:none;
+  padding: 10px;
+}
+.cntctform{
+  background: #011936;
+}
+
 
 .ls_sec{
   height: 100vh;

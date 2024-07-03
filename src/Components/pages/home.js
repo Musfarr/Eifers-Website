@@ -5,6 +5,7 @@ import t4 from "../../Assets/images/t4.jpg";
 import c1 from "../../Assets/images/security-1.png";
 import c2 from "../../Assets/images/net.png";
 import c3 from "../../Assets/images/asser2x-150x150.png";
+import i1 from "../../Assets/images/illustration1.png";
 import Footer from "../common/footer";
 import Header from "../common/header";
 import Aos from "aos";
@@ -50,7 +51,27 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="second_sec">
+      <div className="second_sec uk-light" >
+        <div className=" second_sec_wrapper   uk-child-width-1-2@l uk-child-width-1-1@s" uk-grid = ''>
+          
+          <div data-aos="fade-right" >
+            <img src={i1} alt="" />
+          </div>
+
+          <div data-aos="fade-left" style={{backgroundColor:''}} >
+
+
+            <h1>Provide Advanced Security For Advanced Threat</h1>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <ul>
+              <li><span uk-icon="icon: check"></span><h5>Qualified IT Experts</h5></li>
+              <li> <span uk-icon="icon: check"></span> <h5>99% Malware Detection Removal</h5></li>
+              <li><a href="" uk-icon="icon: heart"></a><h5>Our Work Process With Clients</h5></li>
+            </ul>
+            
+          </div>
+
+        </div>
 
       </div>
 

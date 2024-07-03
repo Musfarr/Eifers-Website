@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../common/header";
 import Footer from "../common/footer";
-import bg2 from "../../Assets/images/circle.jpg";
+import bg2 from "../../Assets/images/contactbg.jpg";
 import bg3 from "../../Assets/images/sky.jpg";
 
 const Contact = () => {
@@ -9,12 +9,11 @@ const Contact = () => {
     <div>
       <div className="">
         <Header />
-      </div>
-
-      <div class="  uk-position-relative uk-position-z-index-zero">
+        </div>
+      <div class="  uk-position-relative uk-position-z-index-zero" style={{marginTop:'-100px'}}>
         <div
           class=" sh uk-background-secondary uk-background-cover uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center uk-light uk-position-z-index-negative"
-          data-src={bg3}
+          data-src={bg2}
           uk-img="loading:eager"
           uk-sticky="overflow-flip: ; end: 100%; offset: 0"
         >
@@ -44,12 +43,12 @@ const Contact = () => {
           class="sh uk-background-secondary   uk-position-z-index-negative"
           uk-sticky=" true; start: 100%; "
         >
-          <div className=" cntctform uk-section uk-section-muted">
+          <div className=" cntctform uk-section ">
             <div className="uk-container">
-              <div className="uk-grid uk-child-width-1-2@m uk-flex-middle">
-                <div>
+              <div className="uk-grid uk-child-width-1-2@m uk-flex-middle ">
+                <div className="uk-light" >
                   <h2>Contact Us</h2>
-                  <form className="uk-form-stacked">
+                  <form className="uk-form-stacked ">
                     <div className="uk-margin">
                       <label className="uk-form-label" htmlFor="name">
                         Name
@@ -101,7 +100,7 @@ const Contact = () => {
                   </form>
                 </div>
                 <div>
-                  <div className="uk-card uk-card-default uk-card-body">
+                  <div className="  uk-card uk-card-default uk-card-body">
                     <h3>Contact Information</h3>
                     <p>Feel free to reach out to us!</p>
                     <ul className="uk-list">
@@ -115,7 +114,7 @@ const Contact = () => {
                         <strong>Address:</strong> 80 Kingsway North, Hollington , United Kingdom.
                       </li>
                     </ul>
-                    <div>
+                    {/* <div>
                       <a
                         href="#"
                         target="_blank"
@@ -151,7 +150,7 @@ const Contact = () => {
                         className="uk-icon-button"
                         uk-icon="yelp"
                       ></a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
