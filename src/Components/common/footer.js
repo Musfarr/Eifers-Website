@@ -17,10 +17,6 @@ const Footer = () => {
 },[]);
 
   
-
-  
-
-
   return (
     <footer className="footer  uk-light">
     <div className="footer-primary">

@@ -11,13 +11,15 @@ const Contact = () => {
         <Header />
         </div>
       <div class="  uk-position-relative uk-position-z-index-zero" style={{marginTop:'-100px'}}>
+
         <div
-          class=" sh uk-background-secondary uk-background-cover uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center uk-light uk-position-z-index-negative"
+          class=" uk-background-cover uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center uk-light "
           data-src={bg2}
           uk-img="loading:eager"
-          uk-sticky="overflow-flip: ; end: 100%; offset: 0"
         >
-          <div class="h100  pt ">
+                  <div className="overlay" style={{zIndex:1}}></div>
+
+          <div class="h100  pt " style={{zIndex:1}} >
             <h1
               className="gh1 animated-text"
               style={{
@@ -29,18 +31,11 @@ const Contact = () => {
               {" "}
               Contact Us <br></br>{" "}
             </h1>
-            {/* <p
-              className=" animated-text"
-              style={{ fontSize: "54px", fontWeight: "400" }}
-            >
-              Please feel free to call or email us, or use our contact form to
-              get in touch with us. We look forward to hearing from you!
-            </p> */}
           </div>
         </div>
 
         <div
-          class="sh uk-background-secondary   uk-position-z-index-negative"
+          class="sh  "
           uk-sticky=" true; start: 100%; "
         >
           <div className=" cntctform uk-section ">
@@ -114,43 +109,6 @@ const Contact = () => {
                         <strong>Address:</strong> 80 Kingsway North, Hollington , United Kingdom.
                       </li>
                     </ul>
-                    {/* <div>
-                      <a
-                        href="#"
-                        target="_blank"
-                        title="Facebook"
-                        className="uk-icon-button uk-margin-small-right"
-                        uk-icon="facebook"
-                      ></a>
-                      <a
-                        href="#"
-                        target="_blank"
-                        title="Instagram"
-                        className="uk-icon-button uk-margin-small-right"
-                        uk-icon="instagram"
-                      ></a>
-                      <a
-                        href="#"
-                        target="_blank"
-                        title="Pinterest"
-                        className="uk-icon-button uk-margin-small-right"
-                        uk-icon="pinterest"
-                      ></a>
-                      <a
-                        href="#"
-                        target="_blank"
-                        title="LinkedIn"
-                        className="uk-icon-button uk-margin-small-right"
-                        uk-icon="linkedin"
-                      ></a>
-                      <a
-                        href="#"
-                        target="_blank"
-                        title="Yelp!"
-                        className="uk-icon-button"
-                        uk-icon="yelp"
-                      ></a>
-                    </div> */}
                   </div>
                 </div>
               </div>

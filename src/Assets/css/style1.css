@@ -382,3 +382,22 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 61%, rg
   display:inline;
   /* padding: 4%; */
 }
+@media (max-width : 500px) {
+  .hanim1{
+    font-size: 20vw !important;
+    margin-top: 32vh !important;
+  }
+  #bottombtn{
+    font-size: 7vw !important;
+        margin-top: 38vh !important;
+        margin-left: 0 !important;
+  }
+  .anip{
+    top: 8% !important;
+    padding: 1.5em 3.5em !important;
+  }
+  .anis{
+    font: 700 3em / 1 "Oswald", sans-serif !important;
+  }
+  
+}

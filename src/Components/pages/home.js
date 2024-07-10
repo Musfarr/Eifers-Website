@@ -5,11 +5,12 @@ import t4 from "../../Assets/images/t4.jpg";
 import c1 from "../../Assets/images/security-1.png";
 import c2 from "../../Assets/images/net.png";
 import c3 from "../../Assets/images/asser2x-150x150.png";
-import i1 from "../../Assets/images/illustration1.png";
+import i1 from "../../Assets/images/about1.png";
 import Footer from "../common/footer";
 import Header from "../common/header";
 import Aos from "aos";
 import CountUp from 'react-countup';
+import { AiOutlineCheck } from "react-icons/ai";
 
 
 
@@ -64,9 +65,9 @@ const Home = () => {
             <h1>Provide Advanced Security For Advanced Threat</h1>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
             <ul>
-              <li><span uk-icon="icon: check"></span><h5>Qualified IT Experts</h5></li>
-              <li> <span uk-icon="icon: check"></span> <h5>99% Malware Detection Removal</h5></li>
-              <li><a href="" uk-icon="icon: heart"></a><h5>Our Work Process With Clients</h5></li>
+              <li><h5> <AiOutlineCheck/> Qualified IT Experts</h5></li>
+              <li> <AiOutlineCheck/> <h5>99% Malware Detection Removal</h5></li>
+              <li><AiOutlineCheck/><h5>Our Work Process With Clients</h5></li>
             </ul>
             
           </div>
@@ -145,7 +146,7 @@ const Home = () => {
           <div className="newsletteritem">
           <h1>Subscribe Our Newsletter
           </h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Subscribe to our newsletter and be the first to receive the latest cybersecurity news.</p>
           <input className="uk-input uk-width-1-2" placeholder="your email address" /> 
           <span> <button className=" uk-button uk-button-primary  "> Submit </button> </span>
           </div>

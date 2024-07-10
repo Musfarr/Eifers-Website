@@ -51,7 +51,7 @@ useEffect(() => {
           <div>
             <div className="uk-card uk-card-body uk-card-primary">
               <img style={{ width: "20%" }} src={c2} />
-              <h2>Network Security</h2>
+              <h2>Malware Protection</h2>
               <p>
                 {" "}
                 Alternatively, the Drop component has two additional ani*
@@ -105,7 +105,7 @@ useEffect(() => {
           <div>
             <div className="uk-card uk-card-body uk-card-primary">
               <img style={{ width: "20%" }} src={c1} />
-              <h2>Data Security</h2>
+              <h2>Computer Security</h2>
               <p>
                 {" "}
                 Alternatively, the Drop component has two additional ani*
@@ -117,7 +117,7 @@ useEffect(() => {
           <div>
             <div className="uk-card uk-card-body uk-card-primary">
               <img style={{ width: "20%" }} src={c3} />
-              <h2>Web Security</h2>
+              <h2>Locker Security</h2>
               <p>
                 {" "}
                 Alternatively, the Drop component has two additional ani*
