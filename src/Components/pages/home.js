@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div className="bgnn  uk-background-fixed v1 ">
       <Header />
-      <div class="uk-position-relative first_sec  " style={{ height: "700px" }}>
+      <div class="uk-position-relative first_sec  ">
         <div className="overlay"></div>
         <img class="uk-background-cover uk-position-absolute" src={t4}></img>
 

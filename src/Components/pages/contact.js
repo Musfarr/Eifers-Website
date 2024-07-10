@@ -29,13 +29,13 @@ const Contact = () => {
               {" "}
               Contact Us <br></br>{" "}
             </h1>
-            <p
+            {/* <p
               className=" animated-text"
               style={{ fontSize: "54px", fontWeight: "400" }}
             >
               Please feel free to call or email us, or use our contact form to
               get in touch with us. We look forward to hearing from you!
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -102,7 +102,7 @@ const Contact = () => {
                 <div>
                   <div className="  uk-card uk-card-default uk-card-body">
                     <h3>Contact Information</h3>
-                    <p>Feel free to reach out to us!</p>
+                    {/* <p>Feel free to reach out to us!</p> */}
                     <ul className="uk-list">
                       <li>
                         <strong>Phone:</strong> +447598320511{" "}

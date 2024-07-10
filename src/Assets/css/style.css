@@ -2743,10 +2743,10 @@ input[type=radio] {
 }
 
 .navbar .navbar-brand {
-  width: 35%;
+  /* width: 35%; */
   padding: 0;
   margin: 0;
-  line-height: 100px;
+  /* line-height: 100px; */
 }
 
 .navbar .logo-light {
@@ -3483,7 +3483,7 @@ input[type=radio] {
 
   .header .logo-light,
   .header-transparent .logo-light {
-    display: none;
+    /* display: none; */
   }
 
   .header .action__btn,
@@ -3514,13 +3514,13 @@ input[type=radio] {
   .header-transparent .navbar,
   .header-transparent .navbar>.container,
   .header-transparent .navbar>.container-fluid {
-    height: 80px;
+    height: 100px;
   }
 
   .header .navbar-brand,
   .header-transparent .navbar-brand {
     margin-left: 15px;
-    line-height: 80px;
+    /* line-height: 80px; */
   }
 
   .header__topbar>.container {
