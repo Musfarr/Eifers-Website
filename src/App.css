@@ -47,13 +47,18 @@
 }
 
 .bgnn{
-  background-color: black;
+  /* background-color: #010003; */
+  background-image: url("./bg1.png");
+  background-size: cover;
 }
+
+
 .mb{
   margin-bottom: 80vh;
 }
 
 .sh{
+  background-color: #000a12;
   height: 91vh;
 }
 
@@ -177,7 +182,7 @@
   display: block;
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
-  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+  background: url('./Assets/images/bluebg.png') repeat-y;
   background-clip: text;
   text-fill-color: transparent;
   animation: sitf 80s linear infinite;

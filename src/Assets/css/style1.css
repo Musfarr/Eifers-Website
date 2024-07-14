@@ -1,3 +1,6 @@
+
+
+
 .tabbuttons {
   background-color: #e4e4e499;
   width: 900px;
@@ -55,6 +58,9 @@
 
 .header1 {
   background-color: transparent;
+}
+.logo-light{
+  max-height: 60px;
 }
 
 .bfont {
@@ -128,16 +134,16 @@
 }
 
 .fbutton {
+  margin-top: 12%;
+  margin-left: 45%;
   background-color: "#02EF93";
   border-radius: 3px;
-  width: 20vh;
-  height: 44px;
   color: #00a0c2;
   border-color: transparent;
   font-weight: 700;
-  font-size: 16px;
-  margin-right: 5vh;
+  font-size: 2vw;
   transition: background-color 0.5s;
+  padding: 10px;
 }
 .fbutton:hover {
   color: #ffffff;
@@ -219,7 +225,7 @@ a,
 
 }
 .hanim1{
-  margin-top: 40vh;
+  /* margin-top: 40vh; */
 }
 
 
@@ -249,8 +255,10 @@ a,
 
 .first_sec{
   margin-top: -100px;
+  height: 100vh;
 }
 .first_sec img {
+
   z-index: 1;
   object-position: center;
   object-fit: cover;
@@ -270,9 +278,137 @@ a,
   background-image: linear-gradient(45deg, #000000, #312f2f00);
 }
 
-.comingsoon{
+.service_sec{
+  text-align: center;
+  padding: 100px 40px;
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 61%, rgba(0,34,68,1) 100%);
+}
+.service_head{
+  padding: 20PX;
+}
+.service_head h1{
   color: white;
-  font-size: 4em;
-  margin-top: 33%;
-  margin-left: 49%;
+  font-weight: 800px;
+}
+.service_head h5{
+  color:#00a0c2;
+  font-weight: 600;
+}
+.service_sec .uk-card-primary{
+  background-color: #011936;
+  border-radius: 12px;
+}
+.service_sec img:hover{
+  animation:bounce;
+  animation-duration: 2s;
+}
+
+.service_sec .uk-card-primary h2 {
+  padding: 30px 0 0 0  ;
+}
+.service_sec .uk-card-primary a{
+  color:#00a0c2;
+  font-weight: 600;
+}
+
+.headingwrap{
+    margin-top: 20%;
+    height: 100%;
+}
+
+
+.countsec{
+  padding: 150px 100px;
+  background-color: transparent;
+  
+}
+.countwrap{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.countwrap span {
+  color: aliceblue;
+  font-size: 3vw;
+}
+.countwrap p {
+  color: aliceblue;
+  font-size: 1.5em;
+}
+.countwrap img {
+  display: block;
+  width: 30%;
+  margin-left: 35%;
+}
+
+
+.second_sec{
+  background-color: #000a12;
+  height: 100vh;
+}
+.second_sec_wrapper{
+  padding: 100px;
+}
+.second_sec ul {
+  list-style:none;
+  padding-left: 0px !important;
+  margin-top: 60px;
+}
+
+.second_sec ul h1 ,p {
+  /* width: 80%; */
+}
+
+.second_sec ul svg {
+  margin-right: 20px;
+  fill: #00a0c2;
+}
+
+.cntctform{
+  background: #000a12;
+}
+
+
+.ls_sec{
+  height: 100vh;
+  background-color: #000a12;
+  
+}
+
+.newsletter{
+  border-radius: 12px;
+  height: fit-content;
+  width: 90%;
+  background: rgb(2,24,22);
+  text-align: center;
+  background: linear-gradient(90deg, rgba(2,24,22,1) 0%, rgba(2,13,31,1) 45%, rgba(3,24,25,1) 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletteritem{
+  padding: 8%;
+}
+.newsletteritem .uk-button-primary{
+  display:inline;
+  /* padding: 4%; */
+}
+@media (max-width : 500px) {
+  .hanim1{
+    font-size: 20vw !important;
+    margin-top: 32vh !important;
+  }
+  #bottombtn{
+    font-size: 7vw !important;
+        margin-top: 38vh !important;
+        margin-left: 0 !important;
+  }
+  .anip{
+    top: 8% !important;
+    padding: 1.5em 3.5em !important;
+  }
+  .anis{
+    font: 700 3em / 1 "Oswald", sans-serif !important;
+  }
+  
 }

@@ -7,6 +7,7 @@ import "./Assets/css/style1.css";
 import "./Assets/css/style.css";
 import "./Assets/css/libraries.css";
 import 'animate.css';
+import 'aos/dist/aos.css'; // Import AOS styles
 
 
 import App from './App';
