@@ -22,9 +22,6 @@ const Header = () => {
   
     return (
       <header class="header header-transparent">
-        {
-          console.log('state: ', link)
-        }
         <nav class="navbar navbar-expand-lg sticky-navbar">
           <div class="container">
   

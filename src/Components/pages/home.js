@@ -129,6 +129,7 @@ const Home = () => {
 
 
         <section className="countsec">
+          <div className="overlay2"></div>
         <div className="countwrap" data-aos="fade-up" >
           <div> <img src={c1} /> <CountUp end={458} duration={16} /> <p>Cybersecurity Projects</p> </div>
           <div> <img src={c2} /> <CountUp end={158} duration={15} /> <p>Clients Protection</p> </div>
