@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import logo from "../../Assets/images/logotrans.png";
 import { Link } from "react-router-dom";
-import { FaFacebookF  , FaLinkedin , } from "react-icons/fa";
+import { FaFacebookF  , FaLinkedin , FaInstagram } from "react-icons/fa";
 
 import $ from 'jquery'
 
@@ -91,8 +91,8 @@ const Footer = () => {
           </div>
           <div className="col-sm-12 col-md-5 col-lg-5 d-flex flex-wrap justify-content-end align-items-center">
             <ul className="social-icons list-unstyled mb-0 mr-30">
-              <li><a href="#"><FaFacebookF/></a></li>
-              <li><a href="#"><FaLinkedin/></a></li>
+              <li><a href="https://www.linkedin.com/company/eifers-ltd/"><FaLinkedin/></a></li>
+              <li><a href="https://www.instagram.com/eifers"><FaInstagram/></a></li>
             </ul>
           </div>
         </div>

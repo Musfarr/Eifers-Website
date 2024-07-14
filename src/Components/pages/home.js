@@ -61,8 +61,8 @@ const Home = () => {
 
           <div className="uk-flex uk-flex-center uk-flex-middle" data-aos="fade-left"  >
             <div>
-            <h1 className="uk-h1">Provide Advanced Security For Advanced Threat</h1>
-            <p className="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <h1 className="uk-h1" style={{fontWeight:'700'}} >Provide Advanced Security For Advanced Threat</h1>
+            <p className="">Our advanced security solutions are designed to stay ahead of these threats, providing robust protection for your business. With our experts on your side, you can rest assured that your business is in capable hands.</p>
             <ul>
               <li><h5> <AiOutlineCheck/>Qualified IT Experts</h5></li>
               <li>  <h5><AiOutlineCheck/>99% Malware Detection Removal</h5></li>
@@ -132,7 +132,7 @@ const Home = () => {
         <div className="countwrap" data-aos="fade-up" >
           <div> <img src={c1} /> <CountUp end={458} duration={16} /> <p>Cybersecurity Projects</p> </div>
           <div> <img src={c2} /> <CountUp end={158} duration={15} /> <p>Clients Protection</p> </div>
-          <div> <img src={c2} /> <CountUp end={100} duration={15} /> <p>Services</p> </div>
+          {/* <div> <img src={c2} /> <CountUp end={100} duration={15} /> <p>Services</p> </div> */}
           <div> <img src={c1} /> <CountUp end={50} duration={15} /> <p>Team Experts</p> </div>
         </div>
         </section>

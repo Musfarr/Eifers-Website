@@ -1,14 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../common/header";
 import Footer from "../common/footer";
 import bg2 from "../../Assets/images/contactbg.jpg";
 import bg3 from "../../Assets/images/sky.jpg";
+import axios from "axios";
+
 
 
 const Contact = () => {
 
+const[name,setname] = useState('')
+const[email,setemail] = useState('')
+const[message,setmessage] = useState('')
 
+const handleSubmit = (e) => {
+  e.preventDefault();
+  
+  console.log(name , email , message)
 
+  let data = {
+    name : name ,
+    email : email ,
+    message : message 
+  }
+
+  axios.post('https://sheet.best/api/sheets/98a302ec-1fc8-4c0d-b397-566ecab5a191' , data)
+  .then((res) => {
+    console.log(res)
+  })
+
+}
 
 
 
@@ -50,7 +71,9 @@ const Contact = () => {
               <div className="uk-grid uk-child-width-1-2@m uk-flex-middle ">
                 <div className="uk-light" >
                   <h2>Contact Us</h2>
-                  <form className="uk-form-stacked ">
+
+
+                  <form onSubmit={handleSubmit}  className="uk-form-stacked ">
                     <div className="uk-margin">
                       <label className="uk-form-label" htmlFor="name">
                         Name
@@ -61,6 +84,7 @@ const Contact = () => {
                           type="text"
                           id="name"
                           placeholder="Your Name"
+                          onChange={(e) => {setname(e.target.value)}}
                         />
                       </div>
                     </div>
@@ -74,7 +98,9 @@ const Contact = () => {
                           type="email"
                           id="email"
                           placeholder="Your Email"
+                          onChange={(e) => {setemail(e.target.value)}}
                         />
+
                       </div>
                     </div>
                     <div className="uk-margin">
@@ -87,6 +113,7 @@ const Contact = () => {
                           id="message"
                           rows="5"
                           placeholder="Your Message"
+                          onChange={(e) => {setmessage(e.target.value)}}
                         ></textarea>
                       </div>
                     </div>
@@ -110,7 +137,7 @@ const Contact = () => {
                         <strong>Phone:</strong> +447598320511{" "}
                       </li>
                       <li>
-                        <strong>Email:</strong> Info@eifers.com
+                        <strong>Email:</strong> privacy@eifers.io
                       </li>
                       <li>
                         <strong>Address:</strong> 80 Kingsway North, Hollington , United Kingdom.
