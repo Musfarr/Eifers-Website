@@ -352,8 +352,19 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 61%, rg
 }
 .second_sec ul {
   list-style:none;
-  padding: 10px;
+  padding-left: 0px !important;
+  margin-top: 60px;
 }
+
+.second_sec ul h1 ,p {
+  /* width: 80%; */
+}
+
+.second_sec ul svg {
+  margin-right: 20px;
+  fill: #00a0c2;
+}
+
 .cntctform{
   background: #000a12;
 }

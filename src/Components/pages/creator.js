@@ -57,7 +57,7 @@ useEffect(() => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Learn More </Link>
+              {/* <Link to="/creator"> Learn More </Link> */}
             </div>
           </div>
           <div>
@@ -69,7 +69,7 @@ useEffect(() => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Learn More </Link>
+              {/* <Link to="/creator"> Learn More </Link> */}
             </div>
           </div>
           <div>
@@ -81,7 +81,7 @@ useEffect(() => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Learn More </Link>
+              {/* <Link to="/creator"> Learn More </Link> */}
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ useEffect(() => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Learn More </Link>
+              {/* <Link to="/creator"> Learn More </Link> */}
             </div>
           </div>
           <div>
@@ -111,7 +111,7 @@ useEffect(() => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Learn More </Link>
+              {/* <Link to="/creator"> Learn More </Link> */}
             </div>
           </div>
           <div>
@@ -123,7 +123,7 @@ useEffect(() => {
                 Alternatively, the Drop component has two additional ani*
                 animations slide the dropdown
               </p>
-              <Link to="/creator"> Learn More </Link>
+              {/* <Link to="/creator"> Learn More </Link> */}
             </div>
           </div>
         </div>

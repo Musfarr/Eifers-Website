@@ -59,17 +59,16 @@ const Home = () => {
             <img src={i1} alt="" />
           </div>
 
-          <div data-aos="fade-left" style={{backgroundColor:''}} >
-
-
-            <h1>Provide Advanced Security For Advanced Threat</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <div className="uk-flex uk-flex-center uk-flex-middle" data-aos="fade-left"  >
+            <div>
+            <h1 className="uk-h1">Provide Advanced Security For Advanced Threat</h1>
+            <p className="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
             <ul>
-              <li><h5> <AiOutlineCheck/> Qualified IT Experts</h5></li>
-              <li> <AiOutlineCheck/> <h5>99% Malware Detection Removal</h5></li>
-              <li><AiOutlineCheck/><h5>Our Work Process With Clients</h5></li>
+              <li><h5> <AiOutlineCheck/>Qualified IT Experts</h5></li>
+              <li>  <h5><AiOutlineCheck/>99% Malware Detection Removal</h5></li>
+              <li><h5> <AiOutlineCheck/>Our Work Process With Clients</h5></li>
             </ul>
-            
+            </div>
           </div>
 
         </div>
@@ -131,10 +130,10 @@ const Home = () => {
 
         <section className="countsec">
         <div className="countwrap" data-aos="fade-up" >
-          <div> <img src={c1} /> <CountUp end={1458} duration={9} /> <p>Cybersecurity Projects</p> </div>
-          <div> <img src={c2} /> <CountUp end={158} duration={10} /> <p>Clients Protection</p> </div>
-          <div> <img src={c2} /> <CountUp end={458} duration={10} /> <p>Service Guarantee</p> </div>
-          <div> <img src={c1} /> <CountUp end={158} duration={10} /> <p>Team Experts</p> </div>
+          <div> <img src={c1} /> <CountUp end={458} duration={16} /> <p>Cybersecurity Projects</p> </div>
+          <div> <img src={c2} /> <CountUp end={158} duration={15} /> <p>Clients Protection</p> </div>
+          <div> <img src={c2} /> <CountUp end={100} duration={15} /> <p>Services</p> </div>
+          <div> <img src={c1} /> <CountUp end={50} duration={15} /> <p>Team Experts</p> </div>
         </div>
         </section>
 

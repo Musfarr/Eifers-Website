@@ -4,7 +4,14 @@ import Footer from "../common/footer";
 import bg2 from "../../Assets/images/contactbg.jpg";
 import bg3 from "../../Assets/images/sky.jpg";
 
+
 const Contact = () => {
+
+
+
+
+
+
   return (
     <div>
       <div className="">
