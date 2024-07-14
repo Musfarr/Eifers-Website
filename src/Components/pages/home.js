@@ -36,7 +36,7 @@ const Home = () => {
           <div className="uk-container uk-padding-large headingwrap">
             <div className=" animate__animated animate__fadeInLeft  ">
               <h1 className="hanim1" data-heading="i">
-                eifers
+                EiFERS
               </h1>
             </div>
             <div className=" animate__animated animate__fadeInRight  ">
