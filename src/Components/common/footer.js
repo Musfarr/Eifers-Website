@@ -32,9 +32,9 @@ const Footer = () => {
             <div className="footer-widget__content">
               <nav>
                 <ul className="list-unstyled">
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="projects-grid.html">Case Studies</a></li>
-                  <li><a href="contact-us.html">Contacts</a></li>
+                  <li><a href="/contact">About Us</a></li>
+                  <li><a href="/contact">Case Studies</a></li>
+                  <li><a href="/contact">Contacts</a></li>
                 </ul>
               </nav>
             </div>
@@ -44,9 +44,9 @@ const Footer = () => {
             <div className="footer-widget__content">
               <nav>
                 <ul className="list-unstyled">
-                  <li><a href="#">Cyber Security</a></li>
-                  <li><a href="#">IT Consulting</a></li>
-                  <li><a href="#">Software Dev</a></li>
+                  <li><a href="/creator">Cyber Security</a></li>
+                  <li><a href="/creator">IT Consulting</a></li>
+                  <li><a href="/creator">Software Dev</a></li>
                 </ul>
               </nav>
             </div>
@@ -56,9 +56,9 @@ const Footer = () => {
             <div className="footer-widget__content">
               <nav>
                 <ul className="list-unstyled">
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="faqs.html">Help & FAQ</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
+                  <li><a href="/contact">Terms of Service</a></li>
+                  <li><a href="/contact">Help & FAQ</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
                 </ul>
               </nav>
             </div>

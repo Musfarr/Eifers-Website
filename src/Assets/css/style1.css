@@ -339,6 +339,7 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 61%, rg
 .countwrap{
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .countwrap span {
@@ -423,5 +424,9 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 61%, rg
   .anis{
     font: 700 3em / 1 "Oswald", sans-serif !important;
   }
+  .second_sec_wrapper {
+    padding: 30px;
+  }
+
   
 }
