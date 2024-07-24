@@ -4,7 +4,8 @@ import Footer from "../common/footer";
 import bg2 from "../../Assets/images/contactbg.jpg";
 import bg3 from "../../Assets/images/sky.jpg";
 import axios from "axios";
-
+import swal from "sweetalert";
+ 
 
 
 const Contact = () => {
@@ -15,8 +16,7 @@ const[message,setmessage] = useState('')
 
 const handleSubmit = (e) => {
   e.preventDefault();
-  
-  console.log(name , email , message)
+  const form = e.target
 
   let data = {
     name : name ,
@@ -26,7 +26,21 @@ const handleSubmit = (e) => {
 
   axios.post('https://sheet.best/api/sheets/98a302ec-1fc8-4c0d-b397-566ecab5a191' , data)
   .then((res) => {
-    console.log(res)
+
+    
+    if(res.status === 200){
+      swal({
+        icon:'success' ,
+        text : 'Sent Successfully'
+      })
+      form.reset()
+    }
+    else{
+      swal({
+        icon:'error' ,
+        text : 'Error Occured'
+      })
+    }
   })
 
 }
