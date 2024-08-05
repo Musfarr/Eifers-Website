@@ -86,15 +86,15 @@ const Home = () => {
           className="uk-grid uk-child-width-1-1 uk-child-width-1-3@s "
           data-aos="fade-up"
           uk-grid=""
+          uk-height-match = "target : > div > .uk-card"
         >
           <div>
-            <div className="uk-card uk-card-body uk-card-primary">
+            <div className="uk-card uk-card-body uk-card-primary " >
               <img style={{ width: "20%" }} src={c2} />
               <h2>Network Security</h2>
               <p>
                 {" "}
-                Alternatively, the Drop component has two additional ani*
-                animations slide the dropdown
+                Our Network Security service aims to secure your organization's network infrastructure from unauthorized access, intrusions, and other cyber threats. Eifers employs a combination of firewalls, intrusion detection and...
               </p>
               <Link to="/creator"> Learn More </Link>
             </div>
@@ -105,8 +105,7 @@ const Home = () => {
               <h2>Data Security</h2>
               <p>
                 {" "}
-                Alternatively, the Drop component has two additional ani*
-                animations slide the dropdown
+                Our Data Security service focuses on protecting your sensitive information from unauthorized access, breaches, and theft. We implement robust encryption techniques, secure data ...
               </p>
               <Link to="/creator"> Learn More </Link>
             </div>
@@ -117,8 +116,7 @@ const Home = () => {
               <h2>Web Security</h2>
               <p>
                 {" "}
-                Alternatively, the Drop component has two additional ani*
-                animations slide the dropdown
+                Eifers' Web Security service is dedicated to protecting your online presence from a wide range of cyber threats, including SQL injection, cross-site scripting (XSS), and DDoS attacks. We provide a multi-layered ...
               </p>
               <Link to="/creator"> Learn More </Link>
             </div>

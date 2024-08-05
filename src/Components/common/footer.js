@@ -92,7 +92,7 @@ const Footer = () => {
           <div className="col-sm-12 col-md-5 col-lg-5 d-flex flex-wrap justify-content-end align-items-center">
             <ul className="social-icons list-unstyled mb-0 mr-30">
               <li><a href="https://www.linkedin.com/company/eifers-ltd/"><FaLinkedin/></a></li>
-              <li><a href="https://www.instagram.com/eifers"><FaInstagram/></a></li>
+              <li><a href="https://www.instagram.com/eifers_/?igsh=aXVxenY5dzB1bHNt"><FaInstagram/></a></li>
             </ul>
           </div>
         </div>
