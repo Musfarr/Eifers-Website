@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom'
 import c1 from "../../Assets/images/security-1.png";
 import c2 from "../../Assets/images/net.png";
 import c3 from "../../Assets/images/asser2x-150x150.png";
+import c4 from "../../Assets/images/cloud.png";
+import c5 from "../../Assets/images/data-security.png";
+
+
+
 
 import Aos from 'aos';
 
@@ -61,7 +66,7 @@ const Creator = () => {
           </div>
           <div>
             <div className="uk-card uk-card-body uk-card-primary">
-              <img style={{ width: "20%" }} src={c1} />
+              <img style={{ width: "20%" }} src={c5} />
               <h2>Data Security</h2>
               <p>
                 {" "}
@@ -115,7 +120,7 @@ const Creator = () => {
           </div>
           <div>
             <div className="uk-card uk-card-body uk-card-primary">
-              <img style={{ width: "20%" }} src={c3} />
+              <img style={{ width: "20%" }} src={c4} />
               <h2>Locker Security</h2>
               <p>
                 {" "}

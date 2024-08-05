@@ -34,7 +34,7 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li><a href="/contact">About Us</a></li>
                   <li><a href="/contact">Case Studies</a></li>
-                  <li><a href="/contact">Contacts</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
                 </ul>
               </nav>
             </div>
@@ -56,9 +56,10 @@ const Footer = () => {
             <div className="footer-widget__content">
               <nav>
                 <ul className="list-unstyled">
-                  <li><a href="/contact">Terms of Service</a></li>
-                  <li><a href="/contact">Help & FAQ</a></li>
-                  <li><a href="/contact">Contact Us</a></li>
+                  <li><a href="/privacy">Privacy Policy</a></li>
+                  <li><a href="/faq">Help & FAQ</a></li>
+                  <li><a href="/terms-and-condition">Terms And Condition</a></li>
+                  
                 </ul>
               </nav>
             </div>
