@@ -6,6 +6,8 @@ import c1 from "../../Assets/images/security-1.png";
 import c2 from "../../Assets/images/net.png";
 import c3 from "../../Assets/images/asser2x-150x150.png";
 import i1 from "../../Assets/images/about1.png";
+import c4 from "../../Assets/images/cloud.png";
+
 import Footer from "../common/footer";
 import Header from "../common/header";
 import Aos from "aos";
@@ -28,9 +30,9 @@ const Home = () => {
   return (
     <div className="bgnn  uk-background-fixed v1 ">
       <Header />
-      <div class="uk-position-relative first_sec  ">
+      <div className="uk-position-relative first_sec  ">
         <div className="overlay"></div>
-        <img class="uk-background-cover uk-position-absolute" src={t4}></img>
+        <img className="uk-background-cover uk-position-absolute" src={t4}></img>
 
         <div className="uk-position-cover first_sec_content ">
           <div className="uk-container uk-padding-large headingwrap">
@@ -40,13 +42,13 @@ const Home = () => {
               </h1>
             </div>
             <div className=" animate__animated animate__fadeInRight  ">
+                <div >
               <Link className="hero_btn" to={"/contact"}>
-                <div>
                   <button className="fbutton" id="bottombtn">
                     Get a Free Cyber Security Audit
                   </button>
-                </div>
               </Link>
+                </div>
             </div>
           </div>
         </div>
@@ -82,12 +84,17 @@ const Home = () => {
           <h5>Our Services</h5>
           <h1>What we Offer</h1>
         </div>
+
+
         <div
-          className="uk-grid uk-child-width-1-1 uk-child-width-1-3@s "
+          className="  "
           data-aos="fade-up"
-          uk-grid=""
-          uk-height-match = "target : > div > .uk-card"
+          // uk-grid=""
+          
+          uk-slider="autoplay: true ; autoplay-interval: 1500"
         >
+          <div className=" uk-slider-items  uk-child-width-1-1@s uk-child-width-1-3@m uk-grid" uk-height-match = "target : > div > .uk-card"> 
+
           <div>
             <div className="uk-card uk-card-body uk-card-primary " >
               <img style={{ width: "20%" }} src={c2} />
@@ -110,6 +117,8 @@ const Home = () => {
               <Link to="/creator"> Learn More </Link>
             </div>
           </div>
+
+
           <div>
             <div className="uk-card uk-card-body uk-card-primary">
               <img style={{ width: "20%" }} src={c3} />
@@ -121,8 +130,57 @@ const Home = () => {
               <Link to="/creator"> Learn More </Link>
             </div>
           </div>
+
+
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c1} />
+              <h2>Computer Security</h2>
+              <p>
+                {" "}
+                Eifers' Computer Security service is focused on protecting individual workstations, servers, and mobile devices within your organization. We provide comprehensive endpoint security solutions that include antivirus software, endpoint detection...
+
+
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c4} />
+              <h2>Locker Security</h2>
+              <p>
+                {" "}
+                Our Locker Security service offers physical and digital solutions for securing your most valuable assets. Eifers provides state-of-the-art physical security measures, such as biometric access controls and secure storage facilities, as well as...
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+
+          <div>
+            <div className="uk-card uk-card-body uk-card-primary">
+              <img style={{ width: "20%" }} src={c2} />
+              <h2>Malware Protection</h2>
+              <p>
+                {" "}
+                Eifers' Malware Protection service is designed to safeguard your systems from malicious software, including viruses, trojans, ransomware, and spyware. Our advanced detection and prevention solutions ensure that your digital environment remains secure from both known and emerging threats. Utilizing state-of-the-art technologies ...
+              </p>
+              <Link to="/creator"> Learn More </Link>
+            </div>
+          </div>
+
+
+
         </div>
+        </div>
+
       </section>
+
+
+
+
+
 
 
 
