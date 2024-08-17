@@ -5,45 +5,48 @@ import bg2 from "../../Assets/images/contactbg.jpg";
 import bg3 from "../../Assets/images/sky.jpg";
 import axios from "axios";
 import swal from "sweetalert";
- 
+import { MdLocationPin } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+
 
 
 const Contact = () => {
 
-const[name,setname] = useState('')
-const[email,setemail] = useState('')
-const[message,setmessage] = useState('')
+  const [name, setname] = useState('')
+  const [email, setemail] = useState('')
+  const [message, setmessage] = useState('')
 
-const handleSubmit = (e) => {
-  e.preventDefault();
-  const form = e.target
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target
 
-  let data = {
-    name : name ,
-    email : email ,
-    message : message 
+    let data = {
+      name: name,
+      email: email,
+      message: message
+    }
+
+    axios.post('https://sheet.best/api/sheets/98a302ec-1fc8-4c0d-b397-566ecab5a191', data)
+      .then((res) => {
+
+
+        if (res.status === 200) {
+          swal({
+            icon: 'success',
+            text: 'Sent Successfully'
+          })
+          form.reset()
+        }
+        else {
+          swal({
+            icon: 'error',
+            text: 'Error Occured'
+          })
+        }
+      })
+
   }
-
-  axios.post('https://sheet.best/api/sheets/98a302ec-1fc8-4c0d-b397-566ecab5a191' , data)
-  .then((res) => {
-
-    
-    if(res.status === 200){
-      swal({
-        icon:'success' ,
-        text : 'Sent Successfully'
-      })
-      form.reset()
-    }
-    else{
-      swal({
-        icon:'error' ,
-        text : 'Error Occured'
-      })
-    }
-  })
-
-}
 
 
 
@@ -51,17 +54,17 @@ const handleSubmit = (e) => {
     <div>
       <div className="">
         <Header />
-        </div>
-      <div class="  uk-position-relative uk-position-z-index-zero" style={{marginTop:'-100px'}}>
+      </div>
+      <div class="  uk-position-relative uk-position-z-index-zero" style={{ marginTop: '-100px' }}>
 
         <div
           class=" uk-background-cover uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center uk-light "
           data-src={bg2}
           uk-img="loading:eager"
         >
-                  <div className="overlay" style={{zIndex:1}}></div>
+          <div className="overlay" style={{ zIndex: 1 }}></div>
 
-          <div class="h100  pt " style={{zIndex:1}} >
+          <div class="h100  pt " style={{ zIndex: 1 }} >
             <h1
               className="gh1 animated-text"
               style={{
@@ -82,12 +85,12 @@ const handleSubmit = (e) => {
         >
           <div className=" cntctform uk-section ">
             <div className="uk-container">
-              <div className="uk-grid uk-child-width-1-2@m uk-flex-middle ">
+              <div className="uk-grid uk-child-width-1-2@m uk-flex-middle uk-light">
                 <div className="uk-light" >
                   <h2>Contact Us</h2>
 
 
-                  <form onSubmit={handleSubmit}  className="uk-form-stacked ">
+                  <form onSubmit={handleSubmit} className="uk-form-stacked ">
                     <div className="uk-margin">
                       <label className="uk-form-label" htmlFor="name">
                         Name
@@ -98,7 +101,7 @@ const handleSubmit = (e) => {
                           type="text"
                           id="name"
                           placeholder="Your Name"
-                          onChange={(e) => {setname(e.target.value)}}
+                          onChange={(e) => { setname(e.target.value) }}
                         />
                       </div>
                     </div>
@@ -112,7 +115,7 @@ const handleSubmit = (e) => {
                           type="email"
                           id="email"
                           placeholder="Your Email"
-                          onChange={(e) => {setemail(e.target.value)}}
+                          onChange={(e) => { setemail(e.target.value) }}
                         />
 
                       </div>
@@ -127,11 +130,11 @@ const handleSubmit = (e) => {
                           id="message"
                           rows="5"
                           placeholder="Your Message"
-                          onChange={(e) => {setmessage(e.target.value)}}
+                          onChange={(e) => { setmessage(e.target.value) }}
                         ></textarea>
                       </div>
                     </div>
-                    <div className=" uk-light uk-margin">
+                    <div className="  uk-margin">
                       <button
                         className="uk-button  "
                         style={{ backgroundColor: " #00a0c2 " }}
@@ -143,18 +146,37 @@ const handleSubmit = (e) => {
                   </form>
                 </div>
                 <div>
-                  <div className="  uk-card uk-card-default uk-card-body">
-                    <h3>Contact Information</h3>
+                  <div className=" ">
+                    {/* <h3>Contact Information</h3> */}
                     {/* <p>Feel free to reach out to us!</p> */}
                     <ul className="uk-list">
                       <li>
-                        <strong>Phone:</strong> +447598320511{" "}
+                        <div className="round uk-flex uk-flex-center uk-flex-middle  ">
+                          <FaPhoneSquareAlt size={30} />
+                        </div>
+                        <div>
+                          <strong>Phone</strong>
+                          <p>+447598320511</p>
+                        </div>
+
                       </li>
                       <li>
-                        <strong>Email:</strong> privacy@eifers.io
+                        <div className="round uk-flex uk-flex-center uk-flex-middle  ">
+                          <MdEmail size={30} />
+                        </div>
+                        <div>
+                          <strong>Email</strong>
+                          <p>privacy@eifers.io</p>
+                        </div>
                       </li>
                       <li>
-                        <strong>Address:</strong> 80 Kingsway North, Hollington , United Kingdom.
+                        <div className="round uk-flex uk-flex-center uk-flex-middle  ">
+                          <MdLocationPin size={30} />
+                        </div>                        
+                        <div>
+                        <strong>Address</strong> 
+                        <p>80 Kingsway North, Hollington , United Kingdom.</p>
+                        </div>
                       </li>
                     </ul>
                   </div>
