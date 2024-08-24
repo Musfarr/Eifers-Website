@@ -144,6 +144,7 @@
   font-size: 2vw;
   transition: background-color 0.5s;
   padding: 10px;
+  font-family: revert;
 }
 .fbutton:hover {
   color: #ffffff;
@@ -426,6 +427,9 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 61%, rg
   
 }
 
+.undragable {
+  -webkit-user-drag: none !important;
+}
 
 @media (max-width : 500px) {
   .hanim1{

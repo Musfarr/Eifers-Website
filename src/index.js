@@ -8,7 +8,10 @@ import "./Assets/css/style.css";
 import "./Assets/css/libraries.css";
 import 'animate.css';
 import 'aos/dist/aos.css'; // Import AOS styles
-
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
