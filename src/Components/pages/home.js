@@ -183,6 +183,7 @@ const Home = () => {
         slidesPerView={1}
         navigation
         loop
+        autoplay
         uk-height-match=".uk-card"
         breakpoints={{
           640: {
